@@ -1,0 +1,122 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+
+              android:orientation="vertical">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/view"></View>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/header_color">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="@string/Change_PIN"
+            android:textColor="@color/white"
+            android:textSize="@dimen/titleText" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/PIN"
+                android:textSize="20sp"
+                android:textStyle="normal"
+                android:id="@+id/textView3" />
+
+            <EditText
+                android:id="@+id/pin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/edit_text_left"
+
+                android:layout_marginBottom="15dp"
+                android:inputType="numberPassword"
+                android:maxLength="4"
+                android:theme="@style/EditTextLabel"
+                android:textSize="20sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/New_PIN"
+                android:textSize="20sp"
+                android:textStyle="normal"/>
+
+            <EditText
+                android:id="@+id/newpin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/edit_text_left"
+
+                android:layout_marginBottom="15dp"
+                android:inputType="numberPassword"
+                android:maxLength="4"
+                android:theme="@style/EditTextLabel"
+                android:textSize="20sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Confirm_PIN"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/confirmNewPIN"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/edit_text_left"
+
+                android:layout_marginBottom="15dp"
+                android:textSize="20sp"
+                android:maxLength="4"
+                android:inputType="numberPassword"
+                android:theme="@style/EditTextLabel" />
+
+            <Button
+                android:id="@+id/ok"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_gravity="end"
+                android:text="OK"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="22dp"
+                android:paddingRight="50dp"
+                android:paddingLeft="50dp"
+                android:background="@drawable/custombutton"
+                android:textColor="@color/white"/>
+        </LinearLayout>
+
+
+
+
+    </ScrollView>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/view"></View>
+
+
+</LinearLayout>

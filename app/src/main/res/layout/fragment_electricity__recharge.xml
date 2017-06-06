@@ -1,0 +1,152 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.xpwallet.mobileshiriki.Frangments.Electricity_Recharge">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/view"></View>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/header_color">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="@string/Electricity"
+            android:textColor="@color/white"
+            android:textSize="@dimen/titleText" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:id="@+id/meterdetaillayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignEnd="@+id/confirm_ammount"
+                android:layout_alignParentTop="true"
+                android:layout_alignRight="@+id/confirm_ammount"
+                android:layout_margin="5dp"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:id="@+id/username"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:text="Username:"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/meternumber"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:padding="2dp"
+                    android:text="meter"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/Amount_txt"
+                    android:textSize="15sp"
+                    android:textStyle="normal" />
+
+                <EditText
+                    android:id="@+id/amount"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="10dp"
+                    android:inputType="number"
+                    android:maxLength="5"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:theme="@style/EditTextLabel" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Mobile_Number"
+                    android:textSize="15sp"
+                    android:textStyle="normal" />
+
+                <EditText
+                    android:id="@+id/mobile_number"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="10dp"
+                    android:inputType="number"
+                    android:maxLength="9"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:theme="@style/EditTextLabel" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/Agent_Pin"
+                    android:textSize="15sp"
+                    android:textStyle="normal" />
+
+                <EditText
+                    android:id="@+id/pin"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/edit_text_left"
+                    android:inputType="numberPassword"
+                    android:maxLength="4"
+                    android:textSize="20sp"
+                    android:theme="@style/EditTextLabel" />
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/confirm_ammount"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/meterdetaillayout"
+                android:layout_gravity="end|right"
+                android:layout_marginBottom="20dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+
+                android:background="@drawable/round"
+                android:paddingLeft="50dp"
+                android:paddingRight="50dp"
+                android:text="@string/confirm"
+                android:textColor="@color/white"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

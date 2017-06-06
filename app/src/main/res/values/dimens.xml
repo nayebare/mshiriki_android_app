@@ -1,0 +1,130 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="login_buton_margintop">12dp</dimen>
+    <dimen name="login_buton_margin">25dp</dimen>
+    <dimen name="login_button_height">40dp</dimen>
+    <dimen name="login_btn_textsize">12sp</dimen>
+    <dimen name="dialogpadding">13dp</dimen>
+    <dimen name="dialogtextsiz">17sp</dimen>
+    <dimen name="dialogtextmrgnbtm">50dp</dimen>
+    <dimen name="confirmtextmrgnbtm">20dp</dimen>
+    <dimen name="dialogbtnpaddimgleft">40dp</dimen>
+    <dimen name="dialogbtnpaddimgtop">5dp</dimen>
+    <dimen name="dialogbtnsiz">17sp</dimen>
+    <dimen name="dialogIcon">50dp</dimen>
+    <dimen name="fragmentbuttonheight">46dp</dimen>
+    <dimen name="fragmentbuttonmarginrght">5dp</dimen>
+    <dimen name="fragmentbuttonpadding">50dp</dimen>
+    <dimen name="fragmenttextmarginrght">5dp</dimen>
+    <dimen name="fragmenttextpadding">15dp</dimen>
+    <dimen name="fragmentbuttontextsiz">15sp</dimen>
+    <dimen name="fragmentbuttonmarginabov">22dp</dimen>
+    <dimen name="login_edittext_textsize">17sp</dimen>
+    <dimen name="login_edittext_padding">25dp</dimen>
+    <dimen name="login_edittext_padding_bottom">7dp</dimen>
+    <dimen name="toolbar_image_width">180dp</dimen>
+    <dimen name="toolbar_image_height">55dp</dimen>
+    <dimen name="toolbar_image_padding">3dp</dimen>
+    <dimen name="activity_horizontal_margin">10dp</dimen>
+    <dimen name="activity_vertical_margin">10dp</dimen>
+    <dimen name="imageHeight">160dp</dimen>
+    <dimen name="imageDescriptionHeight">300dp</dimen>
+    <dimen name="labelText">15sp</dimen>
+    <dimen name="imageSmallText">15sp</dimen>
+    <dimen name="imageLargeText">21sp</dimen>
+    <dimen name="discountTagText">18sp</dimen>
+    <dimen name="sliderWidth">260dp</dimen>
+    <dimen name="categoryTextSize">14sp</dimen>
+    <dimen name="categoryCount">10sp</dimen>
+    <dimen name="drawerText">15sp</dimen>
+    <dimen name="sliderHeader">150dp</dimen>
+    <dimen name="logoTopPadding">2dp</dimen>
+    <dimen name="logoBottomPadding">2dp</dimen>
+    <dimen name="servicebtnpadding">12dp</dimen>
+    <dimen name="servicebtntext">16sp</dimen>
+    <dimen name="logoImageHeight">38dp</dimen>
+    <dimen name="logoImageWidth">129dp</dimen>
+    <dimen name="titleHeight">28dp</dimen>
+    <dimen name="titleText">20sp</dimen>
+    <dimen name="tabsHeight">38dp</dimen>
+    <dimen name="tabsTextHeight">9dp</dimen>
+    <dimen name="confirmRegistrationLabel">25sp</dimen>
+    <dimen name="locationButtonHeight">40dp</dimen>
+    <dimen name="selectImagePadding">7dp</dimen>
+    <dimen name="imageArea">200dp</dimen>
+    <dimen name="buttonTextSize">20sp</dimen>
+    <dimen name="buttonHeight">42dp</dimen>
+    <dimen name="fragmenttxnheadtextsize">12sp</dimen>
+    <dimen name="fragmenttxnheadtextsiz">11sp</dimen>
+    <dimen name="searchListHeight">50dp</dimen>
+    <dimen name="fragmenttxnheadpadding">5dp</dimen>
+    <dimen name="searchTextHeight">20sp</dimen>
+    <dimen name="dialogText">20sp</dimen>
+    <dimen name="dialogHeader">23sp</dimen>
+    <dimen name="categoryDialogHeight">400dp</dimen>
+    <dimen name="storeSubCategoriesText">15sp</dimen>
+    <dimen name="storeSubCategoriesLayout">40dp</dimen>
+    <dimen name="listTextSize">17sp</dimen>
+    <dimen name="listLayoutHeight">40dp</dimen>
+    <dimen name="subCategoryLeftMargin">50dp</dimen>
+    <dimen name="catalogueValueHeight">22sp</dimen>
+    <dimen name="layputPadding">3dp</dimen>
+    <dimen name="layputtopPadding">10dp</dimen>
+
+    //Ad description
+    <dimen name="createdOn">10sp</dimen>
+    <dimen name="orgName">25sp</dimen>
+    <dimen name="briefTitle">17sp</dimen>
+    <dimen name="detail">14sp</dimen>
+    <dimen name="price">25sp</dimen>
+    <dimen name="analytics">25sp</dimen>
+    <dimen name="viewsLabel">17sp</dimen>
+    <dimen name="viewsValue">25sp</dimen>
+    <dimen name="callsLabel">17sp</dimen>
+    <dimen name="callsValue">25sp</dimen>
+
+    <dimen name="locationText">18sp</dimen>
+    <dimen name="stateText">14sp</dimen>
+    <dimen name="cityOptionsButton">35dp</dimen>
+    <dimen name="cityOptionsText">19sp</dimen>
+    <dimen name="detailImageHeight">300dp</dimen>
+
+    //change device
+    <dimen name="editTextWIdth">160dp</dimen>
+    <dimen name="iconHeight">50dp</dimen>
+    <dimen name="iconWidth">50dp</dimen>
+    <dimen name="internetText">15sp</dimen>
+    <dimen name="internetButtonWidth">160dp</dimen>
+    <dimen name="dialogListHeight">250dp</dimen>
+    <dimen name="scrollableImage">300dp</dimen>
+    <dimen name="cardViewCornerRadius">3dp</dimen>
+    <dimen name="cardLayoutMargin">0dp</dimen>
+    <dimen name="discountImage">60dp</dimen>
+    <dimen name="viewpager_margin">-64dp</dimen>
+    <dimen name="viewpager_margin_fix">200dp</dimen>
+
+    <dimen name="offerImageHeight">100dp</dimen>
+    <dimen name="offerTextSize">12sp</dimen>
+    <dimen name="comingSoon">20sp</dimen>
+    <dimen name="horizontalLayerPadding">8dp</dimen>
+    <dimen name="horizontalLayerTextSize">17sp</dimen>
+    <dimen name="horizontalLayerTextSmall">14sp</dimen>
+    <dimen name="horizontalLayerContentPadding">5dp</dimen>
+    <dimen name="horizontalLayerMargin">2dp</dimen>
+    <dimen name="tableHeaderText">17sp</dimen>
+    <dimen name="gridViewMargin">3dp</dimen>
+    <dimen name="cstmdialogtitlesiz">15sp</dimen>
+    <dimen name="homeZpslayArrow">25dp</dimen>
+    <dimen name="fragmentspinnertextpadding">5dp</dimen>
+    <dimen name="fragmentspinnertextsiz">18sp</dimen>
+
+    <dimen name="internet_duration">25sp</dimen>
+
+
+    //...............conformation dialog box............//
+    <dimen name="confomation">7sp</dimen>
+    <dimen name="edit_text_left">5sp</dimen>
+
+    <dimen name="edit_receipt">17sp</dimen>
+</resources>
+

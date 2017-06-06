@@ -1,0 +1,130 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/view"></View>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/myaccount">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="@string/Loan_History"
+                android:textColor="@color/white"
+                android:textSize="20sp"/>
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/view"></View>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/header_color"
+            android:orientation="horizontal"
+            android:padding="@dimen/fragmenttxnheadpadding"
+            android:weightSum="4">
+
+
+
+            <TextView
+                android:id="@+id/tv_transaction_name"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.75"
+                android:layout_marginLeft="5dp"
+                android:text="@string/Description"
+                android:textColor="@color/white"
+                android:textSize="@dimen/fragmenttxnheadtextsize"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/account"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.15"
+                android:text="@string/Amount_txt1"
+                android:gravity="center"
+                android:layout_marginRight="5dp"
+                android:textColor="@color/white"
+                android:textSize="@dimen/fragmenttxnheadtextsize"
+                android:textStyle="bold"/>
+
+
+            <TextView
+                android:id="@+id/tv_transaction_value"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.10"
+                android:gravity="end"
+                android:text="@string/Balance"
+                android:layout_marginRight="1dp"
+                android:textColor="@color/white"
+                android:textSize="@dimen/fragmenttxnheadtextsize"
+                android:textStyle="bold"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/noTxns"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="15sp"
+                android:visibility="gone"/>
+
+            <ListView
+                android:id="@+id/list_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:dividerHeight="1dp"
+                android:divider="@color/dividerclr"
+                android:listSelector="@android:color/transparent"
+                android:cacheColorHint="@android:color/transparent">
+            </ListView>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/duedateLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#E86024"
+        android:orientation="horizontal"
+        android:padding="5dp"
+        android:weightSum="1"
+        android:visibility="gone">
+
+    <TextView
+        android:id="@+id/duedate"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:text="Due date of your loan is  :"
+        android:gravity="center"
+        android:textColor="@color/white"/>
+    </LinearLayout>
+
+
+</RelativeLayout>

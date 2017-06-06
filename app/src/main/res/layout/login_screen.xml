@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <RelativeLayout
+        android:id="@+id/content_frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:id="@+id/contentFrame"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true">
+
+            <LinearLayout
+                android:id="@+id/contentlayout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:weightSum="1">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".12"
+                    android:background="@color/lightgreen"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:src="@drawable/mtoplog" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:weightSum="1">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_gravity="center"
+                        android:layout_weight=".88"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <android.support.design.widget.TextInputLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingBottom="@dimen/login_edittext_padding_bottom"
+                            android:paddingLeft="@dimen/login_edittext_padding"
+                            android:paddingRight="@dimen/login_edittext_padding"
+                            app:hintTextAppearance="@style/GreenTextInputLayout">
+
+                            <EditText
+                                android:id="@+id/walletId"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:hint="@string/Account_Id"
+                                android:inputType="number"
+                                android:maxLength="9"
+                                android:text=""
+                                android:textSize="@dimen/login_edittext_textsize"
+                                android:theme="@style/EditTextLabel" />
+                        </android.support.design.widget.TextInputLayout>
+
+                        <android.support.design.widget.TextInputLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingBottom="@dimen/login_edittext_padding_bottom"
+                            android:paddingLeft="@dimen/login_edittext_padding"
+                            android:paddingRight="@dimen/login_edittext_padding"
+                            app:hintTextAppearance="@style/GreenTextInputLayout">
+
+                            <EditText
+                                android:id="@+id/userPin"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:hint="@string/Transaction_PIN"
+                                android:inputType="numberPassword"
+                                android:maxLength="4"
+                                android:text=""
+                                android:textSize="@dimen/login_edittext_textsize"
+                                android:theme="@style/EditTextLabel" />
+                        </android.support.design.widget.TextInputLayout>
+
+                        <Button
+                            android:id="@+id/login_button"
+                            android:layout_width="fill_parent"
+                            android:layout_height="@dimen/login_button_height"
+                            android:layout_marginLeft="@dimen/login_buton_margin"
+                            android:layout_marginRight="@dimen/login_buton_margin"
+                            android:layout_marginTop="@dimen/login_buton_margintop"
+                            android:background="@drawable/custombutton"
+                            android:text="@string/Login"
+                            android:textColor="@color/buttonText"
+                            android:textSize="@dimen/login_btn_textsize"
+                            android:textStyle="bold" />
+
+
+                        <LinearLayout
+                            android:id="@+id/forget_layout"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:layout_marginTop="10dp"
+                            android:gravity="center">
+
+                            <TextView
+                                android:id="@+id/forgotpin"
+                                style="@android:style/TextAppearance.DeviceDefault.Medium"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_horizontal"
+                                android:gravity="center"
+                                android:text="@string/forgotpi"
+                                android:textSize="15sp"
+                                android:textStyle="bold" />
+
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+        </FrameLayout>
+    </RelativeLayout>
+</ScrollView>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fitsSystemWindows="true">
+        <android.support.design.widget.CollapsingToolbarLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_scrollFlags="scroll|exitUntilCollapsed"
+            app:contentScrim="?attr/colorPrimary"
+            app:expandedTitleMarginStart="48dp"
+            app:expandedTitleMarginEnd="64dp"
+            android:fitsSystemWindows="true">
+            <Toolbar
+                android:layout_width="match_parent"
+                android:layout_height="60dp"></Toolbar>
+            <android.support.v4.view.ViewPager
+                android:layout_width="match_parent"
+                android:scrollbars="vertical"
+                android:layout_height="150dp"
+                android:fitsSystemWindows="true"
+                app:layout_collapseMode="parallax"
+                android:id="@+id/slider_pager">
+            </android.support.v4.view.ViewPager>
+        </android.support.design.widget.CollapsingToolbarLayout>
+
+    </android.support.design.widget.AppBarLayout>
+
+
+        <android.support.v7.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior"            android:id="@+id/list_hotels"
+            >
+        </android.support.v7.widget.RecyclerView>
+</android.support.design.widget.CoordinatorLayout>

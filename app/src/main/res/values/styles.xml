@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionModeOverlay">true</item>
+        <!--<item name="android:windowTranslucentStatus">true</item>-->
+        <!--<item name="android:windowTranslucentNavigation">true</item>-->
+
+
+
+
+
+    </style>
+
+
+
+    <style name="myCustomToolBar" parent="ThemeOverlay.AppCompat.Light">
+        <item name="android:textColorPrimary">#fff</item>
+        <item name="android:textColorSecondary">#fff</item>
+
+    </style>
+
+    <style name="myCustomTabs" parent="ThemeOverlay.AppCompat.Light">
+        <item name="android:textSize">2sp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textColor">#ff0000</item>
+    </style>
+    <style name="toolbar_text">
+        <item name="android:textColor">@color/White</item>
+        <item name="android:shadowColor">@color/Black</item>
+        <item name="android:shadowDx">2</item>
+        <item name="android:shadowDy">2</item>
+        <item name="android:background">@drawable/imagetopopacity</item>
+        <item name="android:shadowRadius">4</item>
+    </style>
+    <style name="EstablecimientosDetalleTheme" parent="Theme.AppCompat.NoActionBar">
+
+        <item name="android:textColorPrimary">@color/blueButton</item>
+
+        <item name="android:textColorPrimaryInverse">@color/pink</item>
+
+        <item name="actionMenuTextColor">@color/priceGreen</item>
+
+        <item name="android:textColorSecondary">@color/logoOrange</item>
+
+    </style>
+    <style name="menu_labels_style">
+        <item name="android:background">@drawable/fab_label_background</item>
+        <item name="android:textColor">@color/White</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="EditTextLabel" parent="AppTheme">
+        <item name="android:textColor">#90000000</item>
+        <item name="colorControlNormal">#90000000</item>
+        <item name="android:singleLine">true</item>
+        <item name="colorControlActivated">#90000000</item>
+    </style>
+    <style name="GreenTextInputLayout" parent="@style/TextAppearance.AppCompat">
+        <item name="android:textColor">#363636</item>
+    </style>
+
+
+
+
+
+
+</resources>

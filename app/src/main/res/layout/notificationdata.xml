@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cardLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="2dp"
+        android:weightSum="4.8">
+
+        <RelativeLayout
+            android:id="@+id/noti_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/desktopi" />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/noti_rel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="12dp"
+
+            android:layout_toRightOf="@+id/noti_image"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/notification_content"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text=""
+                android:textSize="15sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/noti_rel"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@+id/noti_image"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/notificationdate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="..."
+                android:textSize="12dp" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/view2"></View>
+</LinearLayout>

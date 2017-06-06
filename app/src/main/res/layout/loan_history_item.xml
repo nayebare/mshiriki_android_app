@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical"
+              android:padding="4dp"
+              android:weightSum="1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="4">
+
+        <TextView
+            android:id="@+id/loan_id"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.75"
+            android:singleLine="true"
+            android:layout_marginLeft="5dp"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:textSize="@dimen/fragmenttxnheadtextsize" />
+
+        <TextView
+            android:id="@+id/loan_amount"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.15"
+            android:gravity="center"
+            android:layout_marginRight="5dp"
+            android:textColor="#000"
+            android:textSize="@dimen/fragmenttxnheadtextsize" />
+
+        <TextView
+            android:id="@+id/loann_loan"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.10"
+            android:gravity="end"
+            android:layout_marginRight="2dp"
+            android:textColor="#000"
+            android:textSize="@dimen/fragmenttxnheadtextsize" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/loan_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"/>
+
+    </LinearLayout>
+
+
+
+
+
+
+
+</LinearLayout>

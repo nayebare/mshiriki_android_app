@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/app_bar"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/appbarbackground"
+    app:popupTheme="@style/ThemeOverlay.AppCompat.Dark"
+    app:theme="@style/myCustomToolBar">
+
+    <ImageView
+        android:id="@+id/homeLogo"
+        android:layout_width="@dimen/logoImageWidth"
+        android:layout_height="@dimen/logoImageHeight"
+        android:layout_marginBottom="10dp"
+        android:src="@drawable/stoplogo" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="end"
+        android:orientation="horizontal"
+        android:paddingRight="5dp">
+
+        <RelativeLayout
+            android:layout_width="45dp"
+            android:layout_height="45dp">
+
+            <RelativeLayout
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="5dp">
+
+                <ImageView
+                    android:id="@+id/notification"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_centerInParent="true"
+                    android:src="@drawable/notification" />
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:id="@+id/text_count"
+                android:layout_width="22dp"
+                android:layout_height="22dp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginRight="3dp"
+                android:layout_marginTop="3dp"
+                android:background="@drawable/badge_item_count"
+                android:visibility="gone">
+
+                <TextView
+                    android:id="@+id/actionbar_notifcation_textview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text=""
+                    android:textColor="#fff"
+
+
+                    />
+
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/menuicon"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:layout_gravity="center_horizontal"
+
+                android:layout_marginTop="10dp"
+                android:src="@drawable/menuicon" />
+        </RelativeLayout>
+
+        <!--<RelativeLayout-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"></RelativeLayout>-->
+
+        <!--<RelativeLayout-->
+        <!--android:id="@+id/layout"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:gravity="right">-->
+
+        <!--<ImageView-->
+        <!--android:id="@+id/notification"-->
+        <!--android:layout_width="32dp"-->
+        <!--android:layout_height="32dp"-->
+        <!--android:layout_gravity="center_horizontal"-->
+        <!--android:layout_marginRight="10dp"-->
+        <!--android:src="@drawable/notification"/>-->
+
+        <!--<TextView-->
+        <!--android:id="@+id/actionbar_notifcation_textview"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="1"-->
+        <!--android:layout_marginBottom="5dp"-->
+        <!--android:layout_marginRight="5dp"-->
+        <!--android:background="@drawable/badge_item_count"-->
+        <!--android:layout_alignParentTop="true"-->
+        <!--android:layout_alignParentRight="true"-->
+        <!--android:layout_alignParentEnd="true"-->
+        <!--android:visibility="gone" />-->
+
+        <!--&lt;!&ndash;<RelativeLayout&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_width="wrap_content"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:id="@+id/relativeLayout">&ndash;&gt;-->
+
+        <!--&lt;!&ndash;</RelativeLayout>&ndash;&gt;-->
+
+
+        <!--</RelativeLayout>-->
+
+
+    </LinearLayout>
+
+
+</android.support.v7.widget.Toolbar>

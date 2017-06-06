@@ -1,0 +1,100 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/header_color"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:scaleType="fitXY">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/profile_image"
+            android:layout_width="85dp"
+            android:layout_height="85dp"
+            app:civ_border_color="@color/white"
+
+            app:civ_border_width="3dp"/>
+
+        <TextView
+            android:id="@+id/username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="5dp"
+            android:gravity="center"
+            android:text="l"
+            android:textColor="@color/white"
+            android:textSize="22sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            android:textStyle="normal"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/main_two_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/service"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight=".5dp"
+                android:layout_weight=".50"
+                android:background="@color/myservice_color"
+                android:paddingTop="@dimen/servicebtnpadding"
+                android:paddingBottom="@dimen/servicebtnpadding"
+               android:text="@string/My_Services"
+                android:textColor="@color/white"
+                android:textSize="@dimen/servicebtntext"
+                android:textStyle="bold"/>
+
+            <Button
+                android:id="@+id/myaccount"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="3dp"
+                android:layout_weight=".50"
+                android:background="@color/myaccount"
+                android:paddingTop="@dimen/servicebtnpadding"
+                android:paddingBottom="@dimen/servicebtnpadding"
+                android:textColor="@color/white"
+                android:text="@string/My_Account"
+                android:textSize="@dimen/servicebtntext"
+                android:textStyle="bold"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/content_frame"
+            android:orientation="horizontal"
+            >
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
+
+

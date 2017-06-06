@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "398830299302",
+    "firebase_url": "https://mainshiriki.firebaseio.com",
+    "project_id": "mainshiriki",
+    "storage_bucket": "mainshiriki.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:398830299302:android:f9478f4bba7d7ef6",
+        "android_client_info": {
+          "package_name": "com.xpwallet.mobileshiriki"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "398830299302-djelc3frs0mo8aogn6ma23jf1ulf9et0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCL3ExakjjijgJylC2lB1VtpgtEOI-xYu8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

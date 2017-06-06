@@ -1,0 +1,242 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/airtime"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/rippleeffect"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="15dp"
+                    android:src="@drawable/airtime" />
+
+                <View
+                    android:layout_width="1.5dp"
+                    android:layout_height="fill_parent"
+                    android:background="@color/white" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".80"
+                    android:padding="12dp"
+                    android:text="@string/Airtime"
+                    android:textColor="@color/white"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/electricity"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="1dp"
+                android:background="@drawable/rippleeffect"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="15dp"
+                    android:src="@drawable/electricity" />
+
+                <View
+                    android:layout_width="1.5dp"
+                    android:layout_height="fill_parent"
+                    android:background="@color/white" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".80"
+                    android:padding="12dp"
+                    android:text="@string/Electricity"
+                    android:textColor="@color/white"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/dstv"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="1dp"
+                android:background="@drawable/rippleeffect"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="15dp"
+                    android:src="@drawable/startimes" />
+
+                <View
+                    android:layout_width="1.5dp"
+                    android:layout_height="fill_parent"
+                    android:background="@color/white" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".80"
+                    android:padding="12dp"
+                    android:text="Star Times"
+                    android:textColor="@color/white"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/canal"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="1dp"
+                android:background="@drawable/rippleeffect"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="15dp"
+                    android:src="@drawable/canal" />
+
+                <View
+                    android:layout_width="1.5dp"
+                    android:layout_height="fill_parent"
+                    android:background="@color/white" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".80"
+                    android:padding="12dp"
+                    android:text="Canal"
+                    android:textColor="@color/white"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/startimes"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="1dp"
+                android:background="@drawable/rippleeffect"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="15dp"
+                    android:src="@drawable/dishtv" />
+
+                <View
+                    android:layout_width="1.5dp"
+                    android:layout_height="fill_parent"
+                    android:background="@color/white" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".80"
+                    android:padding="12dp"
+                    android:text="DSTV"
+                    android:textColor="@color/white"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/rra"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="1dp"
+                android:background="@drawable/rippleeffect"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="15dp"
+                    android:src="@drawable/rra" />
+
+                <View
+                    android:layout_width="1.5dp"
+                    android:layout_height="fill_parent"
+                    android:background="@color/white" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".80"
+                    android:padding="12dp"
+                    android:text="@string/Rra"
+                    android:textColor="@color/white"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/internet"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="1dp"
+                android:background="@drawable/rippleeffect"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="15dp"
+                    android:src="@drawable/internet" />
+
+                <View
+                    android:layout_width="1.5dp"
+                    android:layout_height="fill_parent"
+                    android:background="@color/white" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".80"
+                    android:padding="12dp"
+                    android:text="@string/Internet"
+                    android:textColor="@color/white"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

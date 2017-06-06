@@ -1,0 +1,205 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/view"></View>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/header_color">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="@string/Start_time"
+            android:textColor="@color/white"
+            android:textSize="@dimen/titleText" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/pricee"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone">
+
+                <TextView
+                    android:id="@+id/pricevalue"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@drawable/customspinner"
+                    android:gravity="center"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:text="@string/Select_Bonquet"
+                    android:textColor="#000"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/price"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingTop="10dp"
+                android:text=""
+                android:textColor="#109B00"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:visibility="gone" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Smart_Card_Number"
+                android:textSize="15sp"
+                android:textStyle="normal" />
+
+            <EditText
+                android:id="@+id/smartcard"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+
+                android:layout_marginRight="@dimen/edit_text_left"
+                android:inputType="number"
+                android:maxLength="11"
+                android:textSize="20sp"
+                android:theme="@style/EditTextLabel" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Months_To_Subscribe"
+                android:textSize="15sp"
+                android:textStyle="normal"
+                android:visibility="gone" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="10dp"
+                android:inputType="number"
+                android:maxLength="15"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:theme="@style/EditTextLabel"
+                android:visibility="gone" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Phone_txt"
+                android:textSize="15sp"
+                android:textStyle="normal" />
+
+            <EditText
+                android:id="@+id/phone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+
+                android:layout_marginRight="@dimen/edit_text_left"
+                android:inputType="number"
+                android:maxLength="9"
+                android:textSize="20sp"
+                android:theme="@style/EditTextLabel" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Amount_txt"
+                android:textSize="15sp"
+                android:textStyle="normal" />
+
+            <EditText
+                android:id="@+id/amount"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+
+                android:layout_marginRight="@dimen/edit_text_left"
+                android:inputType="number"
+                android:maxLength="7"
+
+                android:textSize="20sp"
+                android:theme="@style/EditTextLabel" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Agent_Pin"
+                android:textSize="15sp"
+                android:textStyle="normal" />
+
+            <EditText
+                android:id="@+id/agentpin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:layout_marginRight="@dimen/edit_text_left"
+                android:inputType="numberPassword"
+                android:maxLength="4"
+                android:textSize="20sp"
+                android:theme="@style/EditTextLabel" />
+
+            <Button
+                android:id="@+id/confirm"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_gravity="end"
+                android:layout_marginBottom="20dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/round"
+                android:paddingLeft="50dp"
+                android:paddingRight="50dp"
+                android:text="@string/confirm"
+                android:textColor="@color/white"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/header_color">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="@string/dstv"
+            android:textColor="@color/white"
+            android:textSize="@dimen/titleText" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/view"></View>
+
+</LinearLayout>

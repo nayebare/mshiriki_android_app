@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- for DsTv-->
+
+    <string-array name="Spinner_Item">
+        <item>Select Bouquet</item>
+        <item>ACCESS(13100.0)</item>
+        <item>DSTV Family(25120.0)</item>
+        <item>COMPACT ENGLISH(33850.0)</item>
+        <item>COMPACT PLUS SPORT(64430.0)</item>
+        <item>PREMIUM EAST AFRICA(96100.0)</item>
+        <item>DSTV FRANCAIS ANGLAIS(123400.0)</item>
+        <item>COMPACT FRANCAIS(29500.0)</item>
+        <item>PREMIUM FRANCAIS(66600.0)</item>
+        <item>SPORTIF FRANCAIS(80800.0)</item>
+        <item>PORTUGUESE BOUQUET(48050.0)</item>
+        <item>ASIA BOUQUET(43670.0)</item>
+        <item>PRIMIUM EAST AFRICA + PORTUGUESE(105000.0)</item>
+        <item>PREMIUM EAST AFRICA + PORTUGUESE + FRENCH(127800.0)</item>
+        <item>GREAT WALL AFRICA(7650.0)</item>
+        <item>PREMIUM EAST AFRICA + ASIA(112500.0)</item>
+        <item>TEST ACCESS DSTV(150.0)</item>
+        <item>TEST PRODUCT DSTV(100.0)</item>
+        <item>ACCESS + ASIA(56770.0)</item>
+    </string-array>
+
+
+    <!-- For Canal-->
+
+    <string-array name="canal_item">
+
+        <item>Select Bouquet</item>
+        <item>CANALSAT ACCESS(7000.0)</item>
+        <item>CANALSAT EVASION(14000.0)</item>
+        <item>CANALSAT EVASION+LES CHAINES CANAL(23000.0)</item>
+        <item>TOUT CANAL(50000.0)</item>
+        <item>LES CHAINE CANAL+(14000.0)</item>
+        <item>CANALSAT ACCESS+LES CHAINES CANAL+(21000.0)</item>
+        <item>TEST CANAL(150.0)</item>
+        <item>TEST PRODUCT CANAL(100.0)</item>
+    </string-array>
+
+    <!-- for Startimes-->
+
+    <string-array name="Dtt">
+        <item>Select Bouquet</item>
+
+        <item>NOVA(2000.0)</item>
+        <item>BASIC BOUQUET(4000.0)</item>
+        <item>CLASSIC BOUQUET(8000.0)</item>
+        <item>UNIQUE BOUQUET(13000.0)</item>
+    </string-array>
+
+    <string-array name="Dth">
+        <item>Select Bouquet</item>
+
+        <item>NOVA(3000.0)</item>
+        <item>SMART BOUQUET(8000.0)</item>
+        <item>INDIAN BOUQUET(8000.0)</item>
+        <item>SUPER BOUQUET(13000.0)</item>
+        <item>CHINESE BOUQUET(15000.0)</item>
+    </string-array>
+
+    <string-array name="price_value">
+        <item>$ 5000</item>
+        <item>$ 10,000</item>
+        <item>$ 20,000</item>
+        <item>$ 50,000</item>
+        <item>$ 1,00,000</item>
+    </string-array>
+
+
+    <string-array name="airtel">
+        <item> AIRTEL</item>
+    </string-array>
+
+
+    <string-array name="internetduration">
+        <item>5 min</item>
+        <item>10 min</item>
+        <item>15 min</item>
+        <item>20 min</item>
+        <item>25 min</item>
+        <item>30 min</item>
+
+
+    </string-array>
+
+
+
+
+</resources>

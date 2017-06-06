@@ -1,0 +1,185 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/view"></View>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/header_color">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="@string/dstv_name"
+            android:textColor="@color/white"
+            android:textSize="@dimen/titleText" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/view"></View>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingTop="2dp"
+                android:text="@string/Choose_a_provider"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <RadioGroup
+                android:id="@+id/radioGroup"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="3dp"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal"
+                android:padding="5dp">
+
+                <RadioButton
+                    android:id="@+id/radioButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:button="@drawable/cust_radio_button"
+                    android:checked="false"
+                    android:paddingRight="50dp"
+                    android:text="DTT(018..)"
+                    android:textSize="14sp" />
+
+                <RadioButton
+                    android:id="@+id/radioButton2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:button="@drawable/cust_radio_button"
+                    android:checked="false"
+                    android:text="DTH(021..)"
+                    android:textSize="14sp" />
+
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/price"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:gravity="center"
+                android:text=""
+                android:textColor="@color/optioncolor"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Smart_Card_Number"
+                android:textSize="15sp"
+                android:textStyle="normal" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:layout_marginRight="@dimen/edit_text_left"
+                android:inputType="number"
+                android:maxLength="15"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:theme="@style/EditTextLabel" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Months_To_Subscribe"
+                android:textSize="15sp"
+                android:textStyle="normal" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+
+                android:layout_marginRight="@dimen/edit_text_left"
+                android:inputType="number"
+                android:maxLength="15"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:theme="@style/EditTextLabel" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Phone_txt"
+                android:textSize="15sp"
+                android:textStyle="normal" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+
+                android:layout_marginRight="@dimen/edit_text_left"
+                android:inputType="number"
+                android:maxLength="15"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:theme="@style/EditTextLabel" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Agent_Pin"
+                android:textSize="15sp"
+                android:textStyle="normal" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+
+                android:layout_marginRight="@dimen/edit_text_left"
+                android:inputType="textPersonName"
+                android:maxLength="15"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:theme="@style/EditTextLabel" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_gravity="end"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/round"
+                android:paddingLeft="50dp"
+                android:paddingRight="50dp"
+                android:text="@string/confirm"
+                android:textColor="@color/white"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

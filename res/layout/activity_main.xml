@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout android:id="0x7f0f00bf" android:fitsSystemWindows="true" android:layout_width="-1" android:layout_height="-1">
+    <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+        <include layout="0x7f03001d" />
+        <FrameLayout android:id="@id/contentPanel" android:layout_width="-1" android:layout_height="-1" />
+    </LinearLayout>
+    <android.support.v7.widget.RecyclerView android:layout_gravity="3" android:id="0x7f0f00c0" android:background="#fff" android:scrollbars="200" android:layout_width="100dp" android:layout_height="-1" android:divider="#000" android:dividerHeight="1dp" />
+</android.support.v4.widget.DrawerLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2"
+    <LinearLayout android:gravity="11" android:orientation="1" android:id="0x7f0f010d" android:background="0x7f0d00c8" android:layout_width="-1" android:layout_height="60dp">
+        <ImageView android:id="@id/icon" android:layout_width="50dp" android:layout_height="50dp" android:src="0x7f0200c0" />
+    </LinearLayout>
+    <LinearLayout android:gravity="11" android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+        <TextView android:textSize="0x7f0800fa" android:textStyle="1" android:textColor="0x7f0d000e" android:id="0x7f0f019f" android:padding="0x7f0800f8" android:layout_width="-2" android:layout_height="-1" android:text="" />
+    </LinearLayout>
+    <View android:background="0x7f0d000f" android:layout_width="-1" android:layout_height="1dp" />
+    <LinearLayout android:gravity="11" android:layout_width="-1" android:layout_height="-2">
+        <Button android:textColor="0x7f0d0026" android:id="0x7f0f0107" android:background="0x7f0200b6" android:layout_width="120dp" android:layout_height="-2" android:layout_marginTop="0x7f0800f8" android:layout_marginBottom="0x7f0800f8" android:text="0x7f0900f4" />
+    </LinearLayout>
+</LinearLayout>

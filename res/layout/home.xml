@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout app:orientation="1" app:layout_width="-1" app:layout_height="-1"
+    <LinearLayout app:gravity="11" app:orientation="1" app:background="0x7f0d006a" app:padding="10dp" app:layout_width="-1" app:layout_height="-2" app:scaleType="1">
+        <de.hdodenhof.circleimageview.CircleImageView app:id="0x7f0f0149" app:layout_width="85dp" app:layout_height="85dp" app:civ_border_width="3dp" app:civ_border_color="0x7f0d00d6" />
+        <TextView app:textSize="22sp" app:textStyle="1" app:textColor="0x7f0d00d6" app:gravity="11" app:id="0x7f0f00cd" app:paddingTop="5dp" app:layout_width="-2" app:layout_height="-2" app:text="l" />
+        <TextView app:textSize="14sp" app:textStyle="0" app:textColor="0x7f0d00d6" app:id="0x7f0f014a" app:layout_width="-2" app:layout_height="-2" />
+    </LinearLayout>
+    <LinearLayout app:orientation="1" app:id="0x7f0f014b" app:layout_width="-1" app:layout_height="-2" app:weightSum="1.0"
+        <LinearLayout app:orientation="0" app:layout_width="-1" app:layout_height="-2">
+            <Button app:textSize="0x7f080138" app:textStyle="1" app:textColor="0x7f0d00d6" app:id="0x7f0f014c" app:background="0x7f0d0090" app:paddingTop="0x7f080137" app:paddingBottom="0x7f080137" app:layout_width="0dp" app:layout_height="-2" app:layout_marginRight="0.5dp" app:text="0x7f090081" app:layout_weight="0.5" />
+            <Button app:textSize="0x7f080138" app:textStyle="1" app:textColor="0x7f0d00d6" app:id="0x7f0f014d" app:background="0x7f0d008f" app:paddingTop="0x7f080137" app:paddingBottom="0x7f080137" app:layout_width="0dp" app:layout_height="-2" app:layout_marginLeft="3dp" app:text="0x7f090080" app:layout_weight="0.5" />
+        </LinearLayout>
+        <LinearLayout app:orientation="0" app:id="0x7f0f014e" app:layout_width="-1" app:layout_height="-2" /> /> />

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+    <View android:background="0x7f0d00bd" android:layout_width="-1" android:layout_height="1px" />
+    <LinearLayout android:background="0x7f0d006a" android:layout_width="-1" android:layout_height="-2">
+        <TextView android:textSize="0x7f080045" android:textColor="0x7f0d00d6" android:padding="5dp" android:layout_width="-2" android:layout_height="-2" android:text="0x7f090078" />
+    </LinearLayout>
+    <ScrollView android:layout_width="-1" android:layout_height="-1">
+        <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1" android:layout_margin="10dp"
+            <LinearLayout android:orientation="1" android:id="0x7f0f012d" android:layout_width="-1" android:layout_height="-2" android:layout_margin="5dp" android:layout_alignRight="0x7f0f012e" android:layout_alignParentTop="true">
+                <TextView android:textSize="15sp" android:textStyle="1" android:id="0x7f0f00cd" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="20dp" android:text="Username:" />
+                <TextView android:textSize="15sp" android:textStyle="1" android:id="0x7f0f012f" android:padding="2dp" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="10dp" android:text="meter" />
+                <TextView android:textSize="15sp" android:textStyle="0" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="10dp" android:text="0x7f09006d" />
+                <EditText android:theme="0x7f0a00dd" android:textSize="20sp" android:textStyle="1" android:id="0x7f0f00c5" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="5dp" android:layout_marginRight="10dp" android:maxLength="5" android:inputType="2" />
+                <TextView android:textSize="15sp" android:textStyle="0" android:layout_width="-2" android:layout_height="-2" android:text="0x7f09007e" />
+                <EditText android:theme="0x7f0a00dd" android:textSize="20sp" android:textStyle="1" android:id="0x7f0f0130" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="5dp" android:layout_marginRight="10dp" android:maxLength="9" android:inputType="2" />
+                <TextView android:textSize="15sp" android:textStyle="0" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="10dp" android:text="0x7f09006b" />
+                <EditText android:theme="0x7f0a00dd" android:textSize="20sp" android:id="@id/pin" android:layout_width="-1" android:layout_height="-2" android:layout_marginRight="0x7f08001c" android:maxLength="4" android:inputType="12" />
+            </LinearLayout>
+            <Button android:textSize="15sp" android:textStyle="1" android:textColor="0x7f0d00d6" android:layout_gravity="800005" android:id="0x7f0f012e" android:background="0x7f0201b8" android:paddingLeft="50dp" android:paddingRight="50dp" android:layout_width="-2" android:layout_height="50dp" android:layout_marginTop="10dp" android:layout_marginRight="10dp" android:layout_marginBottom="20dp" android:text="0x7f0900c1" android:layout_below="0x7f0f012d" android:layout_alignParentRight="true" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

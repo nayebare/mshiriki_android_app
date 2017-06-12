@@ -42,15 +42,12 @@ public class Tnx_Receipt extends WalletFragment {
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
 
-
     TextView customer_text, desc_text, txn_type, txn_desc, txn_ammount, txn_date, txn_status, txn_customer_n, txn_token_number, token_text;
     String url = AppUrl.BASE_URL + AppUrl.TXN_RECEIPT;
     LinearLayout print_btn;
     String recipt_id;
     MyCountDownTimer countDownTimer;
     View token_number, customer_view, desc_view;
-
-
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -70,7 +67,6 @@ public class Tnx_Receipt extends WalletFragment {
         //........set countdown...........................//
         countDownTimer = new MyCountDownTimer();
         countDownTimer.countDownTimer.start();
-
 
         Constant.Receipt_txn = 1;
 
@@ -177,7 +173,6 @@ public class Tnx_Receipt extends WalletFragment {
                                         txn_desc.setText("VAT :" + jsonObject1.getString("vat") + " " + "Unit :" + jsonObject1.getString("unit"));
 
                                     }
-
 
                                     String date = jsonObject1.getString("date");
                                     txn_date.setText(date.substring(0, date.indexOf("T")));

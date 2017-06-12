@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="-1" android:layout_height="-1">
+    <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+        <View android:background="0x7f0d00bd" android:layout_width="-1" android:layout_height="1px" />
+        <LinearLayout android:background="0x7f0d008f" android:layout_width="-1" android:layout_height="-2">
+            <TextView android:textSize="20sp" android:textColor="0x7f0d00d6" android:padding="5dp" android:layout_width="-2" android:layout_height="-2" android:text="0x7f09007b" />
+        </LinearLayout>
+        <View android:background="0x7f0d00bd" android:layout_width="-1" android:layout_height="1px" />
+        <LinearLayout android:orientation="0" android:background="0x7f0d006a" android:padding="0x7f080107" android:layout_width="-1" android:layout_height="-2" android:weightSum="4.0">
+            <TextView android:textSize="0x7f080109" android:textStyle="1" android:textColor="0x7f0d00d6" android:id="0x7f0f0145" android:layout_width="0dp" android:layout_height="-2" android:layout_marginLeft="5dp" android:text="0x7f090077" android:layout_weight="1.75" />
+            <TextView android:textSize="0x7f080109" android:textStyle="1" android:textColor="0x7f0d00d6" android:gravity="11" android:id="0x7f0f0146" android:layout_width="0dp" android:layout_height="-2" android:layout_marginRight="5dp" android:text="0x7f09006e" android:layout_weight="1.15" />
+            <TextView android:textSize="0x7f080109" android:textStyle="1" android:textColor="0x7f0d00d6" android:gravity="800005" android:id="0x7f0f0147" android:layout_width="0dp" android:layout_height="-2" android:layout_marginRight="1dp" android:text="0x7f09006f" android:layout_weight="1.1" />
+        </LinearLayout>
+        <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+            <TextView android:textSize="15sp" android:id="0x7f0f015a" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:text="" />
+            <ListView android:id="0x7f0f0148" android:layout_width="-1" android:layout_height="-2" android:listSelector="0x106000d" android:cacheColorHint="0x106000d" android:divider="0x7f0d0063" android:dividerHeight="1dp" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="0" android:id="0x7f0f015b" android:background="#e86024" android:padding="5dp" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:weightSum="1.0" android:layout_alignParentBottom="true">
+        <TextView android:textColor="0x7f0d00d6" android:gravity="11" android:layout_gravity="11" android:id="0x7f0f015c" android:layout_width="0dp" android:layout_height="-2" android:text="Due date of your loan is  :" android:layout_weight="1.0" />
+    </LinearLayout>
+</RelativeLayout>

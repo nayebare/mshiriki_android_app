@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1"
+    <LinearLayout android:orientation="0" android:background="0x7f0d008f" android:layout_width="-1" android:layout_height="-2">
+        <TextView android:textSize="20sp" android:textColor="0x7f0d00d6" android:padding="5dp" android:layout_width="-1" android:layout_height="-2" android:text="0x7f090084" />
+    </LinearLayout>
+    <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+        <TextView android:textSize="20sp" android:textStyle="1" android:id="0x7f0f015a" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:text="" />
+        <ListView android:id="0x7f0f0148" android:layout_width="-1" android:layout_height="-2" />
+    </LinearLayout>
+</LinearLayout>

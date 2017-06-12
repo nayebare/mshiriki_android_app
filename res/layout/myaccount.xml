@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout app:background="0x106000d" app:layout_width="-1" app:layout_height="-1">
+    <ScrollView app:layout_width="-1" app:layout_height="-1">
+        <LinearLayout app:orientation="1" app:layout_width="-1" app:layout_height="-1"
+            <LinearLayout app:gravity="10" app:orientation="0" app:id="0x7f0f017f" app:background="0x7f020053" app:layout_width="-1" app:layout_height="60dp" app:layout_marginTop="5dp">
+                <ImageView app:padding="15dp" app:layout_width="-2" app:layout_height="-2" app:src="0x7f020059" />
+                <View app:background="0x7f0d00d6" app:layout_width="1.5dp" app:layout_height="-1" />
+                <TextView app:textSize="15sp" app:textStyle="1" app:textColor="0x7f0d00d6" app:padding="12dp" app:layout_width="0dp" app:layout_height="-2" app:text="0x7f090070" app:layout_weight="0.8" />
+            </LinearLayout>
+            <LinearLayout app:gravity="10" app:orientation="0" app:id="0x7f0f0180" app:background="0x7f020053" app:layout_width="-1" app:layout_height="60dp" app:layout_marginTop="1dp">
+                <ImageView app:id="0x7f0f0181" app:padding="15dp" app:layout_width="-2" app:layout_height="-2" app:src="0x7f020164" />
+                <View app:background="0x7f0d00d6" app:layout_width="1.5dp" app:layout_height="-1" />
+                <TextView app:textSize="15sp" app:textStyle="1" app:textColor="0x7f0d00d6" app:id="0x7f0f0182" app:padding="12dp" app:layout_width="0dp" app:layout_height="-2" app:text="0x7f090093" app:layout_weight="0.8" />
+                <View app:background="0x7f0d00d6" app:layout_width="1.5dp" app:layout_height="-1" />
+            </LinearLayout>
+            <LinearLayout app:gravity="10" app:orientation="0" app:id="0x7f0f0144" app:background="0x7f020053" app:layout_width="-1" app:layout_height="60dp" app:layout_marginTop="1dp">
+                <ImageView app:padding="15dp" app:layout_width="-2" app:layout_height="-2" app:src="0x7f02009c" />
+                <View app:background="0x7f0d00d6" app:layout_width="1.5dp" app:layout_height="-1" />
+                <TextView app:textSize="15sp" app:textStyle="1" app:textColor="0x7f0d00d6" app:padding="12dp" app:layout_width="0dp" app:layout_height="-2" app:text="0x7f090075" app:layout_weight="0.8" />
+            </LinearLayout>
+            <LinearLayout app:gravity="10" app:orientation="0" app:id="0x7f0f0183" app:background="0x7f020053" app:layout_width="-1" app:layout_height="60dp" app:layout_marginTop="1dp">
+                <ImageView app:padding="15dp" app:layout_width="-2" app:layout_height="-2" app:src="0x7f020163" />
+                <View app:background="0x7f0d00d6" app:layout_width="1.5dp" app:layout_height="-1" />
+                <TextView app:textSize="15sp" app:textStyle="1" app:textColor="0x7f0d00d6" app:padding="12dp" app:layout_width="0dp" app:layout_height="-2" app:text="0x7f09007b" app:layout_weight="0.8" />
+            </LinearLayout>
+            <LinearLayout app:gravity="10" app:orientation="0" app:id="0x7f0f0184" app:background="0x7f020053" app:layout_width="-1" app:layout_height="60dp" app:layout_marginTop="1dp">
+                <ImageView app:padding="15dp" app:layout_width="-2" app:layout_height="-2" app:src="0x7f0200c4" />
+                <View app:background="0x7f0d00d6" app:layout_width="1.5dp" app:layout_height="-1" />
+                <TextView app:textSize="15sp" app:textStyle="1" app:textColor="0x7f0d00d6" app:padding="12dp" app:layout_width="0dp" app:layout_height="-2" app:text="0x7f09009f" app:layout_weight="0.8" />
+            </LinearLayout>
+            <LinearLayout app:gravity="10" app:orientation="0" app:id="0x7f0f0185" app:background="0x7f020053" app:layout_width="-1" app:layout_height="60dp" app:layout_marginTop="1dp">
+                <ImageView app:padding="15dp" app:layout_width="-2" app:layout_height="-2" app:src="0x7f0201ba" />
+                <View app:background="0x7f0d00d6" app:layout_width="1.5dp" app:layout_height="-1" />
+                <TextView app:textSize="15sp" app:textStyle="1" app:textColor="0x7f0d00d6" app:padding="12dp" app:layout_width="0dp" app:layout_height="-2" app:text="0x7f090071" app:layout_weight="0.8" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

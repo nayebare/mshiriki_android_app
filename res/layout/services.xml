@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout app:background="0x106000d" app:layout_width="-1" app:layout_height="-1">
+    <ScrollView app:layout_width="-1" app:layout_height="-1">
+        <LinearLayout app:orientation="1" app:layout_width="-1" app:layout_height="-1"
+            <LinearLayout app:gravity="10" app:orientation="0" app:id="0x7f0f01b2" app:background="0x7f0201b7" app:layout_width="-1" app:layout_height="60dp" app:layout_marginTop="5dp">
+                <ImageView app:padding="15dp" app:layout_width="-2" app:layout_height="-2" app:src="0x7f020054" />
+                <View app:background="0x7f0d00d6" app:layout_width="1.5dp" app:layout_height="-1" />
+                <TextView app:textSize="15sp" app:textStyle="1" app:textColor="0x7f0d00d6" app:padding="12dp" app:layout_width="0dp" app:layout_height="-2" app:text="0x7f09006c" app:layout_weight="0.8" />
+            </LinearLayout>
+            <LinearLayout app:gravity="10" app:orientation="0" app:id="0x7f0f01b3" app:background="0x7f0201b7" app:layout_width="-1" app:layout_height="60dp" app:layout_marginTop="1dp">
+                <ImageView app:padding="15dp" app:layout_width="-2" app:layout_height="-2" app:src="0x7f0200c2" />
+                <View app:background="0x7f0d00d6" app:layout_width="1.5dp" app:layout_height="-1" />
+                <TextView app:textSize="15sp" app:textStyle="1" app:textColor="0x7f0d00d6" app:padding="12dp" app:layout_width="0dp" app:layout_height="-2" app:text="0x7f090078" app:layout_weight="0.8" />
+            </LinearLayout>
+            <LinearLayout app:gravity="10" app:orientation="0" app:id="0x7f0f01b4" app:background="0x7f0201b7" app:layout_width="-1" app:layout_height="60dp" app:layout_marginTop="1dp">
+                <ImageView app:padding="15dp" app:layout_width="-2" app:layout_height="-2" app:src="0x7f0201bc" />
+                <View app:background="0x7f0d00d6" app:layout_width="1.5dp" app:layout_height="-1" />
+                <TextView app:textSize="15sp" app:textStyle="1" app:textColor="0x7f0d00d6" app:padding="12dp" app:layout_width="0dp" app:layout_height="-2" app:text="Star Times" app:layout_weight="0.8" />
+            </LinearLayout>
+            <LinearLayout app:gravity="10" app:orientation="0" app:id="0x7f0f01b5" app:background="0x7f0201b7" app:layout_width="-1" app:layout_height="60dp" app:layout_marginTop="1dp">
+                <ImageView app:padding="15dp" app:layout_width="-2" app:layout_height="-2" app:src="0x7f020060" />
+                <View app:background="0x7f0d00d6" app:layout_width="1.5dp" app:layout_height="-1" />
+                <TextView app:textSize="15sp" app:textStyle="1" app:textColor="0x7f0d00d6" app:padding="12dp" app:layout_width="0dp" app:layout_height="-2" app:text="Canal" app:layout_weight="0.8" />
+            </LinearLayout>
+            <LinearLayout app:gravity="10" app:orientation="0" app:id="0x7f0f01b6" app:background="0x7f0201b7" app:layout_width="-1" app:layout_height="60dp" app:layout_marginTop="1dp">
+                <ImageView app:padding="15dp" app:layout_width="-2" app:layout_height="-2" app:src="0x7f0200c1" />
+                <View app:background="0x7f0d00d6" app:layout_width="1.5dp" app:layout_height="-1" />
+                <TextView app:textSize="15sp" app:textStyle="1" app:textColor="0x7f0d00d6" app:padding="12dp" app:layout_width="0dp" app:layout_height="-2" app:text="DSTV" app:layout_weight="0.8" />
+            </LinearLayout>
+            <LinearLayout app:gravity="10" app:orientation="0" app:id="0x7f0f01b7" app:background="0x7f0201b7" app:layout_width="-1" app:layout_height="60dp" app:layout_marginTop="1dp">
+                <ImageView app:padding="15dp" app:layout_width="-2" app:layout_height="-2" app:src="0x7f0201ba" />
+                <View app:background="0x7f0d00d6" app:layout_width="1.5dp" app:layout_height="-1" />
+                <TextView app:textSize="15sp" app:textStyle="1" app:textColor="0x7f0d00d6" app:padding="12dp" app:layout_width="0dp" app:layout_height="-2" app:text="0x7f090094" app:layout_weight="0.8" />
+            </LinearLayout>
+            <LinearLayout app:gravity="10" app:orientation="0" app:id="0x7f0f01b8" app:background="0x7f0201b7" app:layout_width="-1" app:layout_height="60dp" app:layout_marginTop="1dp">
+                <ImageView app:padding="15dp" app:layout_width="-2" app:layout_height="-2" app:src="0x7f020162" />
+                <View app:background="0x7f0d00d6" app:layout_width="1.5dp" app:layout_height="-1" />
+                <TextView app:textSize="15sp" app:textStyle="1" app:textColor="0x7f0d00d6" app:padding="12dp" app:layout_width="0dp" app:layout_height="-2" app:text="0x7f09007a" app:layout_weight="0.8" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

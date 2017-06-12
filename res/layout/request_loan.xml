@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout app:layout_width="-1" app:layout_height="-1">
+    <LinearLayout app:orientation="1" app:background="0x7f0d00d6" app:layout_width="-1" app:layout_height="-1">
+        <View app:background="0x7f0d00bd" app:layout_width="-1" app:layout_height="1px" />
+        <LinearLayout app:background="0x7f0d008f" app:layout_width="-1" app:layout_height="-2">
+            <TextView app:textSize="20sp" app:textColor="0x7f0d00d6" app:padding="5dp" app:layout_width="-2" app:layout_height="-2" app:text="0x7f090093" />
+        </LinearLayout>
+        <View app:background="0x7f0d00bd" app:layout_width="-1" app:layout_height="1px" />
+        <LinearLayout app:orientation="0" app:id="0x7f0f01a8" app:background="0x7f0d006a" app:layout_width="-1" app:layout_height="-2" app:scaleType="1">
+            <de.hdodenhof.circleimageview.CircleImageView app:id="0x7f0f01a9" app:layout_width="90dp" app:layout_height="100dp" app:layout_margin="10dp" app:civ_border_width="3dp" app:civ_border_color="0x7f0d00d6" />
+            <LinearLayout app:layout_gravity="50" app:orientation="1" app:paddingBottom="20dp" app:layout_width="0dp" app:layout_height="-2" app:layout_weight="4.25">
+                <TextView app:textSize="22sp" app:textStyle="1" app:textColor="0x7f0d00d6" app:id="0x7f0f00cd" app:layout_width="-2" app:layout_height="-2" app:text="Thierry Jeans" />
+                <LinearLayout app:layout_gravity="50" app:orientation="0" app:layout_width="-2" app:layout_height="-2">
+                    <TextView app:textSize="13sp" app:textStyle="1" app:textColor="0x7f0d00d6" app:layout_width="-2" app:layout_height="-2" app:layout_marginRight="1dp" app:text="Outstanding Credit (RWF) :" />
+                    <TextView app:textSize="12sp" app:textStyle="1" app:textColor="0x7f0d00d6" app:id="0x7f0f01aa" app:layout_width="-2" app:layout_height="-2" app:layout_marginLeft="1dp" app:text="0" />
+                </LinearLayout>
+                <LinearLayout app:layout_gravity="50" app:orientation="0" app:layout_width="-1" app:layout_height="-2">
+                    <TextView app:textSize="13sp" app:textStyle="1" app:textColor="0x7f0d00d6" app:layout_width="-2" app:layout_height="-2" app:layout_marginRight="1dp" app:text="Current Balance (RWF)   :" />
+                    <TextView app:textSize="12sp" app:textStyle="1" app:textColor="0x7f0d00d6" app:id="0x7f0f0143" app:layout_width="-2" app:layout_height="-2" app:text="0" />
+                </LinearLayout>
+                <LinearLayout app:layout_gravity="50" app:orientation="0" app:layout_width="-2" app:layout_height="-2">
+                    <TextView app:textSize="13sp" app:textStyle="1" app:textColor="0x7f0d00d6" app:layout_width="-2" app:layout_height="-2" app:layout_marginRight="1dp" app:text="Current Eligibility (RWF) :" />
+                    <TextView app:textSize="14sp" app:textStyle="1" app:textColor="0x7f0d00d6" app:id="0x7f0f01ab" app:layout_width="-2" app:layout_height="-2" app:layout_marginLeft="4dp" app:text="5000" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <View app:background="0x7f0d00bd" app:layout_width="-1" app:layout_height="1px" />
+    </LinearLayout>
+    <RelativeLayout app:orientation="1" app:background="0x7f02005a" app:layout_width="-1" app:layout_height="-2" app:layout_marginLeft="7dp" app:layout_marginTop="168dp" app:layout_marginRight="7dp">
+        <ScrollView app:background="0x7f02005a" app:layout_width="-1" app:layout_height="-1">
+            <LinearLayout app:orientation="1" app:paddingTop="3dp" app:paddingBottom="20dp" app:layout_width="-1" app:layout_height="-2">
+                <TextView app:textSize="15sp" app:textStyle="1" app:textColor="0x7f0d008f" app:layout_gravity="800003" app:layout_width="-2" app:layout_height="-2" app:layout_marginLeft="3dp" app:text="0x7f090082" />
+                <View app:background="0x7f0d00bf" app:layout_width="-1" app:layout_height="1px" />
+                <RadioGroup app:orientation="1" app:id="0x7f0f01ac" app:padding="5dp" app:layout_width="-1" app:layout_height="-2" app:layout_marginLeft="3dp" app:layout_marginTop="5dp">
+                    <RadioButton app:textSize="19sp" app:textColor="0x7f0d008f" app:id="0x7f0f01ad" app:paddingLeft="10dp" app:paddingRight="50dp" app:layout_width="-2" app:layout_height="-2" app:checked="false" app:button="0x7f0200b5" app:text="5000 RWF" app:drawablePadding="50dp" app:scaleX="0.89" app:scaleY="0.89" />
+                    <RadioButton app:textSize="19sp" app:textColor="0x7f0d008f" app:id="0x7f0f01ae" app:paddingLeft="10dp" app:paddingRight="50dp" app:layout_width="-2" app:layout_height="-2" app:checked="false" app:button="0x7f0200b5" app:text="10000 RWF" app:drawablePadding="50dp" app:scaleX="0.89" app:scaleY="0.89" />
+                    <RadioButton app:textSize="19sp" app:textColor="0x7f0d008f" app:id="0x7f0f01af" app:paddingLeft="10dp" app:paddingRight="50dp" app:layout_width="-2" app:layout_height="-2" app:checked="false" app:button="0x7f0200b5" app:text="20000 RWF" app:drawablePadding="50dp" app:scaleX="0.89" app:scaleY="0.89" />
+                    <RadioButton app:textSize="19sp" app:textColor="0x7f0d008f" app:id="0x7f0f01b0" app:paddingLeft="10dp" app:paddingRight="50dp" app:layout_width="-2" app:layout_height="-2" app:checked="false" app:button="0x7f0200b5" app:text="50000 RWF" app:drawablePadding="50dp" app:scaleX="0.89" app:scaleY="0.89" />
+                    <RadioButton app:textSize="19sp" app:textColor="0x7f0d008f" app:id="0x7f0f01b1" app:paddingLeft="10dp" app:paddingRight="50dp" app:layout_width="-2" app:layout_height="-2" app:checked="false" app:button="0x7f0200b5" app:text="100000 RWF" app:drawablePadding="50dp" app:scaleX="0.89" app:scaleY="0.89" />
+                </RadioGroup>
+                <Button app:textSize="15sp" app:textStyle="1" app:textColor="0x7f0d00d6" app:layout_gravity="11" app:id="0x7f0f00c6" app:background="0x7f0200b6" app:paddingLeft="50dp" app:paddingRight="50dp" app:layout_width="-2" app:layout_height="50dp" app:layout_marginTop="5dp" app:layout_marginRight="5dp" app:text="0x7f0900c1" />
+            </LinearLayout>
+        </ScrollView>
+    </RelativeLayout>
+</FrameLayout>

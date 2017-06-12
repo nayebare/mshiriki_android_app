@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar app:id="0x7f0f00c7" app:background="0x7f0d0011" app:layout_width="-1" app:layout_height="-2" app:popupTheme="@style/ThemeOverlay_AppCompat_Dark" app:theme="0x7f0a01b0">
+    <ImageView app:id="0x7f0f00c8" app:layout_width="0x7f080120" app:layout_height="0x7f08011f" app:layout_marginBottom="10dp" app:src="0x7f0201bd" />
+    <LinearLayout app:gravity="800005" app:orientation="0" app:paddingRight="5dp" app:layout_width="-1" app:layout_height="-1">
+        <RelativeLayout app:layout_width="45dp" app:layout_height="45dp"
+            <RelativeLayout app:layout_width="40dp" app:layout_height="40dp" app:layout_marginTop="5dp" app:layout_marginRight="10dp">
+                <ImageView app:id="0x7f0f00c9" app:layout_width="40dp" app:layout_height="40dp" app:src="0x7f02017b" app:layout_centerInParent="true" />
+            </RelativeLayout>
+            <RelativeLayout app:id="0x7f0f00ca" app:background="0x7f020058" app:visibility="2" app:layout_width="22dp" app:layout_height="22dp" app:layout_marginTop="3dp" app:layout_marginRight="3dp" app:layout_alignParentTop="true" app:layout_alignParentRight="true">
+                <TextView app:textColor="#fff" app:id="0x7f0f00cb" app:layout_width="-2" app:layout_height="-2" app:text="" app:layout_centerInParent="true" />
+            </RelativeLayout>
+        </RelativeLayout>
+        <RelativeLayout app:layout_width="-2" app:layout_height="-2">
+            <ImageView app:layout_gravity="1" app:id="0x7f0f00cc" app:layout_width="32dp" app:layout_height="32dp" app:layout_marginTop="10dp" app:src="0x7f020167" />
+        </RelativeLayout>
+    </LinearLayout>
+</android.support.v7.widget.Toolbar>

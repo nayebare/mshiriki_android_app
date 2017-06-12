@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout app:layout_width="-1" app:layout_height="-1">
+    <LinearLayout app:orientation="1" app:background="0x7f0d00d6" app:layout_width="-1" app:layout_height="-1">
+        <View app:background="0x7f0d00bd" app:layout_width="-1" app:layout_height="1px" />
+        <LinearLayout app:background="0x7f0d008f" app:layout_width="-1" app:layout_height="-2">
+            <TextView app:textSize="20sp" app:textColor="0x7f0d00d6" app:padding="5dp" app:layout_width="-2" app:layout_height="-2" app:text="0x7f090070" />
+        </LinearLayout>
+        <View app:background="0x7f0d00bd" app:layout_width="-1" app:layout_height="1px" />
+        <LinearLayout app:orientation="0" app:background="0x7f0d006a" app:layout_width="-1" app:layout_height="120dp" app:scaleType="1"
+            <LinearLayout app:gravity="11" app:orientation="1" app:layout_width="0dp" app:layout_height="-1" app:layout_weight="4.25">
+                <TextView app:textSize="22sp" app:textStyle="1" app:textColor="0x7f0d00d6" app:id="0x7f0f00cd" app:layout_width="-2" app:layout_height="-2" app:text="" />
+                <View app:background="0x7f0d0016" app:layout_width="-1" app:layout_height="2px" app:layout_marginLeft="5dp" app:layout_marginRight="5dp" />
+                <LinearLayout app:layout_gravity="1" app:orientation="0" app:layout_width="-2" app:layout_height="-2">
+                    <TextView app:textSize="18sp" app:textColor="0x7f0d00d6" app:layout_width="-2" app:layout_height="-2" app:layout_marginRight="1dp" app:text="Account Balance" />
+                </LinearLayout>
+                <LinearLayout app:gravity="11" app:orientation="0" app:layout_width="-1" app:layout_height="-2">
+                    <TextView app:textSize="25sp" app:textStyle="1" app:textColor="0x7f0d00d6" app:id="0x7f0f00ce" app:layout_width="-2" app:layout_height="-2" app:layout_marginRight="1dp" app:text="" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <View app:background="0x7f0d00bd" app:layout_width="-1" app:layout_height="1px" />
+    </LinearLayout>
+    <LinearLayout app:orientation="1" app:layout_width="-1" app:layout_height="-2" app:layout_marginTop="185dp"
+        <LinearLayout app:orientation="0" app:id="0x7f0f00cf" app:visibility="2" app:layout_width="-1" app:layout_height="-2" app:layout_marginTop="5dp" app:weightSum="1.0">
+            <TextView app:textSize="16sp" app:textStyle="1" app:padding="8dp" app:layout_width="0dp" app:layout_height="-2" app:text="Outstanding Credit" app:layout_weight="0.53" />
+            <TextView app:textSize="15sp" app:gravity="5" app:id="0x7f0f00d0" app:padding="8dp" app:layout_width="0dp" app:layout_height="-2" app:text="" app:layout_weight="0.47" />
+        </LinearLayout>
+        <View app:background="0x7f0d0016" app:layout_width="-1" app:layout_height="1px" app:layout_marginLeft="5dp" app:layout_marginRight="5dp" />
+        <LinearLayout app:orientation="0" app:id="0x7f0f00d1" app:visibility="2" app:layout_width="-1" app:layout_height="-2" app:layout_marginTop="5dp" app:weightSum="1.0">
+            <TextView app:textSize="16sp" app:textStyle="1" app:padding="8dp" app:layout_width="0dp" app:layout_height="-2" app:text="Commission Balance" app:layout_weight="0.53" />
+            <TextView app:textSize="15sp" app:gravity="5" app:id="0x7f0f00d2" app:padding="8dp" app:layout_width="0dp" app:layout_height="-2" app:layout_weight="0.47" />
+        </LinearLayout>
+        <View app:background="0x7f0d0016" app:layout_width="-1" app:layout_height="1px" app:layout_marginLeft="5dp" app:layout_marginRight="5dp" />
+        <LinearLayout app:orientation="0" app:id="0x7f0f00d3" app:visibility="2" app:layout_width="-1" app:layout_height="-2" app:layout_marginTop="5dp" app:weightSum="1.0">
+            <TextView app:textSize="16sp" app:textStyle="1" app:padding="8dp" app:layout_width="0dp" app:layout_height="-2" app:text="Credit Penalty" app:layout_weight="0.53" />
+            <TextView app:textSize="15sp" app:gravity="5" app:id="0x7f0f00d4" app:padding="8dp" app:layout_width="0dp" app:layout_height="-2" app:layout_weight="0.47" />
+        </LinearLayout>
+        <View app:background="0x7f0d0016" app:layout_width="-1" app:layout_height="1px" app:layout_marginLeft="5dp" app:layout_marginRight="5dp" />
+    </LinearLayout>
+</RelativeLayout>

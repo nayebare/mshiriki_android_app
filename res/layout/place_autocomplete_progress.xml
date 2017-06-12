@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProgressBar android:id="@id/place_autocomplete_progress" android:padding="3dp" android:visibility="0" android:indeterminate="true" />

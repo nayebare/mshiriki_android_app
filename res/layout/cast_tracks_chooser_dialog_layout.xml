@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TabHost android:id="@id/tab_host" android:layout_width="-1" android:layout_height="300dp">
+    <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+        <TabWidget android:id="0x1020013" android:layout_width="-1" android:layout_height="-2" />
+        <FrameLayout android:id="0x1020011" android:layout_width="-1" android:layout_height="-2">
+            <ListView android:id="@id/text_list_view" android:scrollbars="200" android:layout_width="-1" android:layout_height="-2" android:choiceMode="1" android:scrollbarFadeDuration="1000" />
+            <ListView android:id="@id/audio_list_view" android:scrollbars="200" android:layout_width="-1" android:layout_height="-2" android:choiceMode="1" android:scrollbarFadeDuration="1000" />
+            <TextView android:textSize="@dimen/cast_tracks_chooser_dialog_no_message_text_size" android:gravity="11" android:id="@id/text_empty_message" android:paddingTop="10dp" android:paddingBottom="10dp" android:layout_width="-1" android:layout_height="-2" android:text="@string/cast_tracks_chooser_dialog_no_text_tracks" />
+            <TextView android:textSize="@dimen/cast_tracks_chooser_dialog_no_message_text_size" android:gravity="11" android:id="@id/audio_empty_message" android:paddingTop="10dp" android:paddingBottom="10dp" android:layout_width="-1" android:layout_height="-2" android:text="@string/cast_tracks_chooser_dialog_no_audio_tracks" />
+        </FrameLayout>
+    </LinearLayout>
+</TabHost>

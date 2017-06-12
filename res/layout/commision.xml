@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout app:fitsSystemWindows="true" app:layout_width="-1" app:layout_height="-1">
+    <android.support.design.widget.AppBarLayout app:fitsSystemWindows="true" app:layout_width="-1" app:layout_height="-2">
+        <android.support.design.widget.CollapsingToolbarLayout app:fitsSystemWindows="true" app:layout_width="-1" app:layout_height="-1" app:layout_scrollFlags="3" app:expandedTitleMarginStart="48dp" app:expandedTitleMarginEnd="64dp" app:contentScrim="?unknown_attr_ref: 7f0100a0">
+            <Toolbar app:layout_width="-1" app:layout_height="60dp" />
+            <android.support.v4.view.ViewPager app:id="0x7f0f0108" app:fitsSystemWindows="true" app:scrollbars="200" app:layout_width="-1" app:layout_height="150dp" app:layout_collapseMode="2" />
+        </android.support.design.widget.CollapsingToolbarLayout>
+    </android.support.design.widget.AppBarLayout>
+    <android.support.v7.widget.RecyclerView app:id="0x7f0f0109" app:layout_width="-1" app:layout_height="-2" app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+</android.support.design.widget.CoordinatorLayout>

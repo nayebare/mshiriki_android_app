@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="0x7f0f0128" android:layout_width="-1" android:layout_height="-1">
+    <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:layout_alignParentStart="true">
+        <View android:background="0x7f0d00bd" android:layout_width="-1" android:layout_height="1px" />
+        <LinearLayout android:background="0x7f0d008f" android:layout_width="-1" android:layout_height="-2">
+            <TextView android:textSize="20sp" android:textColor="0x7f0d00d6" android:padding="5dp" android:layout_width="-2" android:layout_height="-2" android:text="0x7f090074" />
+        </LinearLayout>
+        <View android:background="0x7f0d00bd" android:layout_width="-1" android:layout_height="1px" />
+        <LinearLayout android:layout_width="-2" android:layout_height="-2">
+            <TextView android:id="0x7f0f0129" android:padding="5dp" android:layout_width="-2" android:layout_height="-2" android:text="" />
+        </LinearLayout>
+        <LinearLayout android:gravity="11" android:layout_width="-1" android:layout_height="-1"
+            <LinearLayout android:id="0x7f0f012a" android:visibility="2" android:layout_width="-2" android:layout_height="-2">
+                <com.github.mikephil.charting.charts.PieChart android:id="0x7f0f012b" android:layout_width="300dp" android:layout_height="300dp" android:layout_margin="5dp" />
+            </LinearLayout>
+            <LinearLayout android:gravity="11" android:id="0x7f0f012c" android:visibility="2" android:layout_width="300dp" android:layout_height="300dp">
+                <TextView android:textSize="20sp" android:textStyle="1" android:layout_width="-2" android:layout_height="-2" android:text="No commission details" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

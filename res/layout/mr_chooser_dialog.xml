@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="-1" android:layout_height="-2">
+    <ListView android:id="@id/mr_chooser_list" android:layout_width="-1" android:layout_height="-2" android:divider="0x106000d" android:dividerHeight="0dp" />
+    <LinearLayout android:orientation="1" android:id="0x1020004" android:paddingLeft="16dp" android:paddingTop="90dp" android:paddingRight="16dp" android:visibility="2" android:layout_width="-1" android:layout_height="240dp">
+        <TextView android:layout_gravity="11" android:layout_width="-2" android:layout_height="-2" android:text="@string/mr_chooser_searching" />
+        <ProgressBar android:layout_gravity="11" android:layout_width="150dp" android:layout_height="-2" android:indeterminate="true" style="?unknown_attr_ref: 1010078" />
+    </LinearLayout>
+</FrameLayout>

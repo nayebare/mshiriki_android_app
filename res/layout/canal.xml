@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:background="0x7f0d00d6" android:layout_width="-1" android:layout_height="-1">
+    <View android:background="0x7f0d00bd" android:layout_width="-1" android:layout_height="1px" />
+    <LinearLayout android:background="0x7f0d006a" android:layout_width="-1" android:layout_height="-2">
+        <TextView android:textSize="0x7f080045" android:textColor="0x7f0d00d6" android:padding="5dp" android:layout_width="-2" android:layout_height="-2" android:text="Canal" />
+    </LinearLayout>
+    <View android:background="0x7f0d00bd" android:layout_width="-1" android:layout_height="1px" />
+    <ScrollView android:layout_width="-1" android:layout_height="-1">
+        <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1" android:layout_margin="10dp"
+            <LinearLayout android:id="0x7f0f00db" android:layout_width="-1" android:layout_height="-2">
+                <TextView android:textSize="15sp" android:textStyle="1" android:textColor="0x7f0d00bd" android:gravity="11" android:id="0x7f0f00dc" android:background="0x7f0200b7" android:paddingLeft="10dp" android:paddingRight="10dp" android:layout_width="-1" android:layout_height="50dp" android:text="0x7f090095" />
+            </LinearLayout>
+            <TextView android:textSize="20sp" android:textStyle="1" android:textColor="0x7f0d0094" android:gravity="11" android:id="0x7f0f00dd" android:paddingTop="10dp" android:layout_width="-1" android:layout_height="-2" android:text="" />
+            <TextView android:textSize="15sp" android:textStyle="0" android:padding="2dp" android:layout_width="-2" android:layout_height="-2" android:text="0x7f09009a" />
+            <EditText android:theme="0x7f0a00dd" android:textSize="20sp" android:textStyle="1" android:layout_width="-1" android:layout_height="-2" android:layout_marginRight="0x7f08001c" android:layout_marginBottom="15dp" android:maxLength="15" android:inputType="2" />
+            <TextView android:textSize="15sp" android:textStyle="0" android:layout_width="-2" android:layout_height="-2" android:text="0x7f09007f" />
+            <EditText android:theme="0x7f0a00dd" android:textSize="20sp" android:textStyle="1" android:layout_width="-1" android:layout_height="-2" android:layout_marginRight="0x7f08001c" android:layout_marginBottom="15dp" android:maxLength="15" android:inputType="2" />
+            <TextView android:textSize="15sp" android:textStyle="0" android:layout_width="-2" android:layout_height="-2" android:text="0x7f09007e" />
+            <EditText android:theme="0x7f0a00dd" android:textSize="20sp" android:textStyle="1" android:layout_width="-1" android:layout_height="-2" android:layout_marginRight="0x7f08001c" android:layout_marginBottom="15dp" android:maxLength="15" android:inputType="2" />
+            <TextView android:textSize="15sp" android:textStyle="0" android:layout_width="-2" android:layout_height="-2" android:text="0x7f09006b" />
+            <EditText android:theme="0x7f0a00dd" android:textSize="20sp" android:textStyle="1" android:id="0x7f0f00de" android:layout_width="-1" android:layout_height="-2" android:layout_marginRight="0x7f08001c" android:layout_marginBottom="15dp" android:maxLength="15" android:inputType="2" />
+            <Button android:textSize="15sp" android:textStyle="1" android:textColor="0x7f0d00d6" android:layout_gravity="800005" android:background="0x7f0201b8" android:paddingLeft="50dp" android:paddingRight="50dp" android:layout_width="-2" android:layout_height="50dp" android:layout_marginTop="5dp" android:layout_marginRight="5dp" android:text="0x7f0900c1" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

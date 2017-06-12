@@ -1,0 +1,75 @@
+package com.google.android.gms.fitness.data;
+
+public final class zzt {
+    public static final Field zzaSP;
+    public static final Field zzaSQ;
+    public static final Field zzaSR;
+    public static final Field zzaSS;
+    public static final Field zzaST;
+    public static final Field zzaSU;
+    public static final Field zzaSV;
+    public static final Field zzaSW;
+    public static final Field zzaSX;
+    public static final Field zzaSY;
+    public static final Field zzaSZ;
+    public static final Field zzaTa;
+    public static final Field zzaTb;
+    public static final Field zzaTc;
+    public static final Field zzaTd;
+    public static final Field zzaTe;
+    public static final Field zzaTf;
+    public static final Field zzaTg;
+    public static final Field zzaTh;
+    public static final Field zzaTi;
+    public static final Field zzaTj;
+    public static final Field zzaTk;
+    public static final Field zzaTl;
+    public static final Field zzaTm;
+    public static final Field zzaTn;
+    public static final Field zzaTo;
+    public static final Field zzaTp;
+    public static final Field zzaTq;
+    public static final Field zzaTr;
+    public static final Field zzaTs;
+    public static final Field zzaTt;
+    public static final Field zzaTu;
+    public static final Field zzaTv;
+    public static final Field zzaTw;
+
+    static {
+        zzaSP = Field.zzef("blood_pressure_systolic");
+        zzaSQ = Field.zzef("blood_pressure_systolic_average");
+        zzaSR = Field.zzef("blood_pressure_systolic_min");
+        zzaSS = Field.zzef("blood_pressure_systolic_max");
+        zzaST = Field.zzef("blood_pressure_diastolic");
+        zzaSU = Field.zzef("blood_pressure_diastolic_average");
+        zzaSV = Field.zzef("blood_pressure_diastolic_min");
+        zzaSW = Field.zzef("blood_pressure_diastolic_max");
+        zzaSX = Field.zzee("body_position");
+        zzaSY = Field.zzee("blood_pressure_measurement_location");
+        zzaSZ = Field.zzef("blood_glucose_level");
+        zzaTa = Field.zzee("temporal_relation_to_meal");
+        zzaTb = Field.zzee("temporal_relation_to_sleep");
+        zzaTc = Field.zzee("blood_glucose_specimen_source");
+        zzaTd = Field.zzef("oxygen_saturation");
+        zzaTe = Field.zzef("oxygen_saturation_average");
+        zzaTf = Field.zzef("oxygen_saturation_min");
+        zzaTg = Field.zzef("oxygen_saturation_max");
+        zzaTh = Field.zzef("supplemental_oxygen_flow_rate");
+        zzaTi = Field.zzef("supplemental_oxygen_flow_rate_average");
+        zzaTj = Field.zzef("supplemental_oxygen_flow_rate_min");
+        zzaTk = Field.zzef("supplemental_oxygen_flow_rate_max");
+        zzaTl = Field.zzee("oxygen_therapy_administration_mode");
+        zzaTm = Field.zzee("oxygen_saturation_system");
+        zzaTn = Field.zzee("oxygen_saturation_measurement_method");
+        zzaTo = Field.zzef("body_temperature");
+        zzaTp = Field.zzee("body_temperature_measurement_location");
+        zzaTq = Field.zzee("cervical_mucus_texture");
+        zzaTr = Field.zzee("cervical_mucus_amount");
+        zzaTs = Field.zzee("cervical_position");
+        zzaTt = Field.zzee("cervical_dilation");
+        zzaTu = Field.zzee("cervical_firmness");
+        zzaTv = Field.zzee("menstrual_flow");
+        zzaTw = Field.zzee("ovulation_test_result");
+    }
+}

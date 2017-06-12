@@ -28,7 +28,6 @@ public class SplashScreen extends Activity {
         FirebaseCrash.report(new Exception("My first Android non-fatal error"));
         FirebaseCrash.log("Activity created");
 
-
         //.........................intialisation of shared prefrences................//
         sharedPrefrences = new SharedPrefrences(SplashScreen.this);
 

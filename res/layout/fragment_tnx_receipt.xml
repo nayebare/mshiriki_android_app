@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout android:id="0x7f0f0131" android:layout_width="-1" android:layout_height="-1">
+    <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+        <View android:background="0x7f0d00bd" android:layout_width="-1" android:layout_height="1px" />
+        <LinearLayout android:id="0x7f0f0132" android:background="0x7f0d006a" android:layout_width="-1" android:layout_height="-2" android:weightSum="1.0">
+            <TextView android:textSize="0x7f080045" android:textColor="0x7f0d00d6" android:padding="3dp" android:layout_width="-2" android:layout_height="-2" android:text="0x7f090090" android:layout_weight="0.92" />
+        </LinearLayout>
+        <View android:background="0x7f0d00bd" android:layout_width="-1" android:layout_height="1px" />
+        <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1" android:layout_marginTop="5dp" android:weightSum="2.0"
+            <LinearLayout android:layout_width="-1" android:layout_height="0dp" android:layout_weight="1.8">
+                <ScrollView android:layout_width="-1" android:layout_height="-2" android:layout_below="0x7f0f0132">
+                    <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+                        <TextView android:textSize="0x7f08001b" android:textStyle="1" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="0x7f080000" android:layout_marginTop="0x7f080000" android:layout_marginRight="0x7f080000" android:text="0x7f090092" />
+                        <TextView android:theme="0x7f0a00dd" android:textSize="0x7f08001b" android:id="0x7f0f0133" android:background="@messageapi/FILTER_LITERAL" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="0x7f080000" android:layout_marginRight="0x7f080000" android:layout_marginBottom="15dp" android:inputType="1" />
+                        <View android:background="0x7f0d003b" android:layout_width="-1" android:layout_height="1px" android:layout_marginLeft="0x7f080000" android:layout_marginRight="0x7f080000" />
+                        <TextView android:textSize="0x7f08001b" android:textStyle="1" android:id="0x7f0f0134" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="0x7f080000" android:layout_marginTop="0x7f080000" android:layout_marginRight="0x7f080000" android:text="0x7f09008c" />
+                        <TextView android:theme="0x7f0a00dd" android:textSize="0x7f08001b" android:id="0x7f0f0135" android:background="@messageapi/FILTER_LITERAL" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="0x7f080000" android:layout_marginRight="0x7f080000" android:layout_marginBottom="15dp" android:inputType="1" />
+                        <View android:id="0x7f0f0136" android:background="0x7f0d003b" android:visibility="2" android:layout_width="-1" android:layout_height="1px" android:layout_marginLeft="0x7f080000" android:layout_marginRight="0x7f080000" />
+                        <TextView android:textSize="0x7f08001b" android:textStyle="1" android:id="0x7f0f0137" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="0x7f080000" android:layout_marginTop="10dp" android:layout_marginRight="0x7f080000" android:text="0x7f09008a" />
+                        <TextView android:theme="0x7f0a00dd" android:textSize="0x7f08001b" android:id="0x7f0f0138" android:background="@messageapi/FILTER_LITERAL" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="0x7f080000" android:layout_marginRight="0x7f080000" android:layout_marginBottom="15dp" android:inputType="1" />
+                        <View android:background="0x7f0d003b" android:layout_width="-1" android:layout_height="1px" android:layout_marginLeft="0x7f080000" android:layout_marginRight="0x7f080000" />
+                        <TextView android:textSize="0x7f08001b" android:textStyle="1" android:id="0x7f0f0139" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="0x7f080000" android:layout_marginTop="10dp" android:layout_marginRight="0x7f080000" android:text="0x7f09008b" />
+                        <TextView android:theme="0x7f0a00dd" android:textSize="0x7f08001b" android:id="0x7f0f013a" android:background="@messageapi/FILTER_LITERAL" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="0x7f080000" android:layout_marginRight="0x7f080000" android:layout_marginBottom="15dp" android:inputType="1" />
+                        <View android:id="0x7f0f013b" android:background="0x7f0d003b" android:visibility="2" android:layout_width="-1" android:layout_height="1px" android:layout_marginLeft="0x7f080000" android:layout_marginRight="0x7f080000" />
+                        <TextView android:textSize="0x7f08001b" android:textStyle="1" android:id="0x7f0f013c" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="0x7f080000" android:layout_marginTop="10dp" android:layout_marginRight="0x7f080000" android:text="0x7f090091" />
+                        <TextView android:theme="0x7f0a00dd" android:textSize="0x7f08001b" android:id="0x7f0f013d" android:background="@messageapi/FILTER_LITERAL" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="0x7f080000" android:layout_marginRight="0x7f080000" android:inputType="1" />
+                        <View android:id="0x7f0f013e" android:background="0x7f0d003b" android:visibility="2" android:layout_width="-1" android:layout_height="1px" android:layout_marginLeft="0x7f080000" android:layout_marginRight="0x7f080000" />
+                        <TextView android:textSize="0x7f08001b" android:textStyle="1" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="0x7f080000" android:layout_marginTop="10dp" android:layout_marginRight="0x7f080000" android:text="0x7f09008e" />
+                        <TextView android:theme="0x7f0a00dd" android:textSize="0x7f08001b" android:id="0x7f0f013f" android:background="@messageapi/FILTER_LITERAL" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="0x7f080000" android:layout_marginRight="0x7f080000" android:layout_marginBottom="15dp" android:inputType="1" />
+                        <View android:background="0x7f0d003b" android:layout_width="-1" android:layout_height="1px" android:layout_marginLeft="0x7f080000" android:layout_marginRight="0x7f080000" />
+                        <TextView android:textSize="0x7f08001b" android:textStyle="1" android:id="0x7f0f0140" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="0x7f080000" android:layout_marginTop="10dp" android:layout_marginRight="0x7f080000" android:text="0x7f090089" />
+                        <TextView android:theme="0x7f0a00dd" android:textSize="0x7f08001b" android:id="0x7f0f0141" android:background="@messageapi/FILTER_LITERAL" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="0x7f080000" android:layout_marginRight="0x7f080000" android:layout_marginBottom="15dp" android:inputType="1" />
+                        <View android:background="0x7f0d003b" android:layout_width="-1" android:layout_height="1px" android:layout_marginLeft="0x7f080000" android:layout_marginRight="0x7f080000" />
+                    </LinearLayout>
+                </ScrollView>
+            </LinearLayout>
+            <LinearLayout android:textSize="0x7f08001b" android:gravity="11" android:id="0x7f0f0142" android:background="0x7f0d0025" android:layout_width="-1" android:layout_height="0dp" android:layout_weight="0.2">
+                <TextView android:textSize="0x7f080045" android:textStyle="1" android:textColor="0x7f0d00d6" android:id="0x7f0f0143" android:layout_width="-2" android:layout_height="-2" android:text="0x7f09008f" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</android.support.design.widget.CoordinatorLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/mr_expandable_area" android:background="0x106000d" android:layout_width="-1" android:layout_height="-1">
+    <LinearLayout android:layout_gravity="11" android:orientation="1" android:id="@id/mr_dialog_area" android:background="?unknown_attr_ref: 7f010000" android:layout_width="-1" android:layout_height="-2"
+        <LinearLayout android:orientation="0" android:id="@id/mr_title_bar" android:paddingLeft="24dp" android:paddingRight="12dp" android:layout_width="-1" android:layout_height="-2">
+            <TextView android:textAppearance="?unknown_attr_ref: 7f010011" android:ellipsize="3" android:gravity="10" android:id="@id/mr_name" android:layout_width="0dp" android:layout_height="72dp" android:singleLine="true" android:layout_weight="1.0" />
+            <ImageButton android:layout_gravity="10" android:id="@id/mr_close" android:background="?unknown_attr_ref: 7f010083" android:layout_width="48dp" android:layout_height="48dp" android:src="?unknown_attr_ref: 7f01000c" android:contentDescription="@string/mr_controller_close_description" />
+        </LinearLayout>
+        <FrameLayout android:id="@id/mr_custom_control" android:visibility="2" android:layout_width="-1" android:layout_height="-2" />
+        <FrameLayout android:id="@id/mr_default_control" android:layout_width="-1" android:layout_height="-2">
+            <ImageView android:layout_gravity="30" android:id="@id/mr_art" android:background="?unknown_attr_ref: 7f0100a0" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:scaleType="1" android:adjustViewBounds="true" android:contentDescription="@string/mr_controller_album_art" />
+            <LinearLayout android:layout_gravity="50" android:orientation="1" android:layout_width="-1" android:layout_height="-2"
+                <LinearLayout android:layout_gravity="50" android:orientation="1" android:id="@id/mr_media_main_control" android:paddingTop="16dp" android:paddingBottom="16dp" android:layout_width="-1" android:layout_height="-2">
+                    <include android:id="@id/mr_playback_control" layout="@layout/mr_playback_control" />
+                    <View android:id="@id/mr_control_divider" android:visibility="2" android:layout_width="-1" android:layout_height="8dp" />
+                    <include android:id="@id/mr_volume_control" layout="@layout/mr_volume_control" />
+                </LinearLayout>
+                <android.support.v7.app.OverlayListView android:scrollbarStyle="2000000" android:id="@id/mr_volume_group_list" android:paddingTop="@dimen/mr_controller_volume_group_list_padding_top" android:visibility="2" android:clipToPadding="false" android:layout_width="-1" android:layout_height="-2" />
+            </LinearLayout>
+        </FrameLayout>
+        <include layout="@layout/abc_alert_dialog_button_bar_material" />
+    </LinearLayout>
+</FrameLayout>

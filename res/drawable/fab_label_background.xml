@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list>
+    <item>
+        <shape>
+            <padding android:left="1px" android:top="1px" android:right="1px" />
+            <solid android:color="#e7e7e7" />
+            <corners android:radius="4dp" />
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <padding android:left="1px" android:top="1px" android:right="1px" />
+            <solid android:color="#d6d6d6" />
+            <corners android:radius="3dp" />
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <padding android:bottom="1px" />
+            <solid android:color="0x7f0d007a" />
+            <corners android:radius="3dp" />
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <padding android:bottom="1px" />
+            <solid android:color="0x7f0d007a" />
+            <corners android:radius="3dp" />
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <padding android:bottom="1px" />
+            <solid android:color="0x7f0d007a" />
+            <corners android:radius="3dp" />
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <padding android:bottom="1px" />
+            <solid android:color="0x7f0d007a" />
+            <corners android:radius="3dp" />
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <padding android:bottom="1px" />
+            <solid android:color="0x7f0d007a" />
+            <corners android:radius="3dp" />
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <solid android:color="0x7f0d007a" />
+            <padding android:left="16dp" android:top="4dp" android:right="16dp" android:bottom="4dp" />
+            <corners android:radius="3dp" />
+        </shape>
+    </item>
+</layer-list>

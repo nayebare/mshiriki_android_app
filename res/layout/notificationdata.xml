@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout app:orientation="1" app:id="0x7f0f0164" app:layout_width="-1" app:layout_height="-2">
+    <RelativeLayout app:gravity="11" app:orientation="0" app:padding="2dp" app:layout_width="-1" app:layout_height="-2" app:weightSum="4.8"
+        <RelativeLayout app:id="0x7f0f019b" app:layout_width="-2" app:layout_height="-2" app:layout_marginLeft="10dp" app:layout_marginTop="10dp" app:layout_marginBottom="10dp">
+            <ImageView app:layout_width="40dp" app:layout_height="40dp" app:src="0x7f0200be" />
+        </RelativeLayout>
+        <RelativeLayout app:orientation="1" app:id="0x7f0f019c" app:layout_width="-1" app:layout_height="-2" app:layout_marginLeft="10dp" app:layout_marginTop="12dp" app:layout_marginRight="10dp" app:layout_toRightOf="0x7f0f019b">
+            <TextView app:textSize="15sp" app:id="0x7f0f019d" app:layout_width="-2" app:layout_height="-2" app:text="" />
+        </RelativeLayout>
+        <RelativeLayout app:orientation="0" app:layout_width="-2" app:layout_height="-2" app:layout_marginLeft="10dp" app:layout_marginTop="5dp" app:layout_toRightOf="0x7f0f019b" app:layout_below="0x7f0f019c">
+            <TextView app:textSize="12dp" app:id="0x7f0f019e" app:layout_width="-2" app:layout_height="-2" app:text="..." />
+        </RelativeLayout>
+    </RelativeLayout>
+    <View app:background="0x7f0d00be" app:layout_width="-1" app:layout_height="1px" />
+</LinearLayout>

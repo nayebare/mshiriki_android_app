@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:background="0x7f0d0010" android:layout_width="-1" android:layout_height="-2"
+    <LinearLayout android:orientation="1" android:id="0x7f0f010d" android:background="0x7f0d00c8" android:padding="0x7f0800f8" android:layout_width="-1" android:layout_height="-2">
+        <TextView android:textSize="20sp" android:textStyle="1" android:textColor="0x7f0d0026" android:layout_gravity="11" android:id="@id/icon" android:layout_width="-2" android:layout_height="-2" android:text="Confirmation" />
+    </LinearLayout>
+    <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+        <TextView android:textSize="0x7f0800fa" android:textColor="0x7f0d000e" android:id="0x7f0f0121" android:padding="0x7f0800c6" android:layout_width="-1" android:layout_height="-2" android:text="" />
+    </LinearLayout>
+    <LinearLayout android:orientation="1" android:id="0x7f0f010f" android:layout_width="-1" android:layout_height="-2">
+        <TextView android:textSize="0x7f0800fa" android:textColor="0x7f0d000e" android:id="0x7f0f00c5" android:padding="0x7f0800c6" android:layout_width="-1" android:layout_height="-2" />
+    </LinearLayout>
+    <View android:background="0x7f0d000f" android:layout_width="-1" android:layout_height="1dp" />
+    <LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2">
+        <Button android:textColor="0x7f0d0026" android:id="0x7f0f0107" android:background="0x7f0200b6" android:layout_width="0dp" android:layout_height="0x7f0800fe" android:layout_marginLeft="5dp" android:layout_marginTop="0x7f0800f8" android:layout_marginRight="5dp" android:layout_marginBottom="0x7f0800f8" android:text="Ok" android:layout_weight="0.5" />
+        <Button android:textColor="0x7f0d0026" android:id="0x7f0f00d7" android:background="0x7f0200b6" android:layout_width="0dp" android:layout_height="0x7f0800fe" android:layout_marginTop="0x7f0800f8" android:layout_marginRight="5dp" android:layout_marginBottom="0x7f0800f8" android:text="Cancel" android:layout_weight="0.5" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView app:layout_width="-1" app:layout_height="-1" app:fillViewport="true">
+    <RelativeLayout app:orientation="1" app:id="0x7f0f014e" app:layout_width="-1" app:layout_height="-1">
+        <FrameLayout app:id="0x7f0f015d" app:layout_width="-1" app:layout_height="-1" app:layout_alignParentLeft="true" app:layout_alignParentTop="true" app:layout_alignParentStart="true">
+            <LinearLayout app:orientation="1" app:id="0x7f0f015e" app:layout_width="-1" app:layout_height="-1" app:weightSum="1.0"
+                <LinearLayout app:orientation="1" app:background="0x7f0d0075" app:layout_width="-1" app:layout_height="-2" app:layout_weight="0.12">
+                    <ImageView app:layout_width="-2" app:layout_height="-2" app:layout_margin="5dp" app:src="0x7f020179" />
+                </LinearLayout>
+                <LinearLayout app:orientation="1" app:layout_width="-1" app:layout_height="-1" app:weightSum="1.0"
+                    <LinearLayout app:gravity="11" app:layout_gravity="11" app:orientation="1" app:layout_width="-1" app:layout_height="0dp" app:layout_weight="0.88">
+                        <android.support.design.widget.TextInputLayout app:paddingLeft="0x7f08011c" app:paddingRight="0x7f08011c" app:paddingBottom="0x7f08011d" app:layout_width="-1" app:layout_height="-2" app:hintTextAppearance="0x7f0a00df">
+                            <EditText app:theme="0x7f0a00dd" app:textSize="0x7f08011e" app:id="0x7f0f015f" app:layout_width="-1" app:layout_height="-2" app:text="" app:hint="0x7f09006a" app:maxLength="9" app:inputType="2" />
+                        </android.support.design.widget.TextInputLayout>
+                        <android.support.design.widget.TextInputLayout app:paddingLeft="0x7f08011c" app:paddingRight="0x7f08011c" app:paddingBottom="0x7f08011d" app:layout_width="-1" app:layout_height="-2" app:hintTextAppearance="0x7f0a00df">
+                            <EditText app:theme="0x7f0a00dd" app:textSize="0x7f08011e" app:id="0x7f0f0160" app:layout_width="-1" app:layout_height="-2" app:text="" app:hint="0x7f0900a0" app:maxLength="4" app:inputType="12" />
+                        </android.support.design.widget.TextInputLayout>
+                        <Button app:textSize="0x7f080030" app:textStyle="1" app:textColor="0x7f0d0026" app:id="0x7f0f0161" app:background="0x7f0200b6" app:layout_width="-1" app:layout_height="0x7f08011b" app:layout_marginLeft="0x7f080119" app:layout_marginTop="0x7f08011a" app:layout_marginRight="0x7f080119" app:text="0x7f09007c" />
+                        <LinearLayout app:gravity="11" app:id="0x7f0f0162" app:layout_width="-1" app:layout_height="40dp" app:layout_marginTop="10dp">
+                            <TextView app:textSize="15sp" app:textStyle="1" app:gravity="11" app:layout_gravity="1" app:id="0x7f0f0163" app:layout_width="-2" app:layout_height="-2" app:text="0x7f0900cc" style="@*style/TextAppearance.DeviceDefault.Medium" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </FrameLayout>
+    </RelativeLayout>
+</ScrollView>

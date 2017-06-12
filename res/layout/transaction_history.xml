@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="-1" android:layout_height="-1">
+    <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1" android:layout_alignParentLeft="true" android:layout_alignParentTop="true">
+        <View android:background="0x7f0d00bd" android:layout_width="-1" android:layout_height="1px" />
+        <LinearLayout android:orientation="0" android:background="0x7f0d008f" android:layout_width="-1" android:layout_height="-2" android:weightSum="1.0"
+            <LinearLayout android:layout_gravity="11" android:layout_width="0dp" android:layout_height="-1" android:layout_weight="0.8">
+                <TextView android:textSize="20sp" android:textColor="0x7f0d00d6" android:padding="5dp" android:layout_width="-2" android:layout_height="-2" android:text="0x7f09009f" />
+            </LinearLayout>
+            <LinearLayout android:gravity="11" android:id="0x7f0f01be" android:layout_width="0dp" android:layout_height="-1" android:layout_weight="0.2">
+                <ImageView android:gravity="11" android:layout_gravity="11" android:id="0x7f0f0129" android:layout_width="-2" android:layout_height="-2" android:src="0x7f02005f" />
+            </LinearLayout>
+        </LinearLayout>
+        <View android:background="0x7f0d00bd" android:layout_width="-1" android:layout_height="1px" />
+        <LinearLayout android:orientation="0" android:background="0x7f0d006a" android:padding="0x7f080107" android:layout_width="-1" android:layout_height="-2" android:weightSum="4.0">
+            <TextView android:textSize="0x7f080109" android:textStyle="1" android:textColor="0x7f0d00d6" android:id="0x7f0f0145" android:layout_width="0dp" android:layout_height="-2" android:layout_marginLeft="1dp" android:text="0x7f09009e" android:layout_weight="1.73" />
+            <TextView android:textSize="0x7f080109" android:textStyle="1" android:textColor="0x7f0d00d6" android:id="0x7f0f0146" android:layout_width="0dp" android:layout_height="-2" android:layout_marginRight="5dp" android:text="0x7f090087" android:layout_weight="1.5" />
+            <TextView android:textSize="0x7f080109" android:textStyle="1" android:textColor="0x7f0d00d6" android:gravity="800005" android:id="0x7f0f0147" android:layout_width="0dp" android:layout_height="-2" android:text="0x7f09006e" android:layout_weight="0.77" />
+        </LinearLayout>
+        <LinearLayout android:orientation="1" android:id="0x7f0f01bf" android:layout_width="-1" android:layout_height="-1" android:weightSum="2.0"
+            <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="0dp" android:layout_weight="1.8">
+                <TextView android:textSize="20sp" android:textStyle="1" android:id="0x7f0f015a" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:text="" />
+                <ListView android:id="0x7f0f0148" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="2dp" android:layout_marginBottom="2dp" android:divider="0x7f0d0063" android:dividerHeight="1dp" />
+            </LinearLayout>
+            <LinearLayout android:gravity="11" android:background="#e86024" android:layout_width="-1" android:layout_height="0dp" android:layout_weight="0.2">
+                <TextView android:textColor="0x7f0d00d6" android:layout_gravity="11" android:id="0x7f0f0143" android:layout_width="-2" android:layout_height="-2" android:text=" Account Balance : 0.00 " />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

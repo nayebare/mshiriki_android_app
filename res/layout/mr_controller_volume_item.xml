@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="-1" android:layout_height="-2"
+    <LinearLayout android:orientation="1" android:id="@id/volume_item_container" android:paddingLeft="24dp" android:paddingRight="60dp" android:paddingBottom="8dp" android:layout_width="-1" android:layout_height="@dimen/mr_controller_volume_group_list_item_height">
+        <TextView android:textAppearance="?unknown_attr_ref: 7f010010" android:id="@id/mr_name" android:layout_width="-2" android:layout_height="-2" android:singleLine="true" />
+        <LinearLayout android:gravity="10" android:orientation="0" android:layout_width="-1" android:layout_height="-2">
+            <ImageView android:id="@id/mr_volume_item_icon" android:layout_width="@dimen/mr_controller_volume_group_list_item_icon_size" android:layout_height="@dimen/mr_controller_volume_group_list_item_icon_size" android:layout_marginTop="8dp" android:layout_marginBottom="8dp" android:src="?unknown_attr_ref: 7f010007" android:scaleType="3" />
+            <android.support.v7.app.MediaRouteVolumeSlider android:id="@id/mr_volume_slider" android:layout_width="-1" android:layout_height="40dp" android:maxHeight="40dp" android:minHeight="40dp" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
